@@ -36,7 +36,8 @@ async function extract(inputFiles, opts = {}) {
       result = await extractWithLLM(chunks, {
         model: opts.model,
         concurrency: opts.concurrency || 3,
-        types: opts.types
+        types: opts.types,
+        systemPrompt: opts.systemPrompt
       });
       break;
 

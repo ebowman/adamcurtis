@@ -2,4 +2,6 @@ node_modules/
 *.html
 !index.html
 !tools/template.html
+!sopranos.html
 .DS_Store
+.env

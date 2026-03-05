@@ -23,12 +23,23 @@ program
   .option('--min-frequency <n>', 'Min entity mentions (regex)', '2')
   .option('--model <model>', 'Claude model (for claude engine)')
   .option('--concurrency <n>', 'Concurrent API calls (for claude engine)', '3')
+  .option('--prompt <preset|text>', 'System prompt preset (documentary, drama, film, lecture) or custom text', 'documentary')
   .action(async (files, opts) => {
     const { extract } = require('./tools/extract');
+    const { PROMPT_PRESETS } = require('./lib/config');
     const resolved = resolveGlobs(files);
     if (resolved.length === 0) {
       console.error('No files matched the input patterns');
       process.exit(1);
+    }
+    // Resolve prompt: preset name or custom text
+    let systemPrompt;
+    if (PROMPT_PRESETS[opts.prompt]) {
+      systemPrompt = PROMPT_PRESETS[opts.prompt].system;
+      console.log(`Using prompt preset: ${opts.prompt} (${PROMPT_PRESETS[opts.prompt].label})`);
+    } else {
+      systemPrompt = opts.prompt;
+      console.log('Using custom system prompt');
     }
     await extract(resolved, {
       engine: opts.engine,
@@ -37,7 +48,8 @@ program
       source: opts.source,
       minFrequency: parseInt(opts.minFrequency),
       model: opts.model,
-      concurrency: parseInt(opts.concurrency)
+      concurrency: parseInt(opts.concurrency),
+      systemPrompt
     });
   });
 
