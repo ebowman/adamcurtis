@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{TITLE}} — Mind Map</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: #0a0a0f;
+    color: #c8c8d0;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    overflow: hidden;
+    height: 100vh;
+  }
+  #header {
+    position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+    background: linear-gradient(180deg, rgba(10,10,15,0.97) 0%, rgba(10,10,15,0.85) 80%, transparent 100%);
+    padding: 14px 24px 20px;
+  }
+  #header h1 {
+    font-size: 16px; font-weight: 600; color: #e0e0e8; letter-spacing: 0.5px;
+  }
+  #header h1 span { color: #666; font-weight: 400; }
+  #controls {
+    display: flex; gap: 10px; margin-top: 10px; flex-wrap: wrap; align-items: center;
+  }
+  #search {
+    background: #16161e; border: 1px solid #2a2a38; color: #c8c8d0;
+    padding: 6px 12px; border-radius: 4px; font-size: 13px; width: 220px;
+    outline: none;
+  }
+  #search:focus { border-color: #4a6fa5; }
+  #search::placeholder { color: #555; }
+  select {
+    background: #16161e; border: 1px solid #2a2a38; color: #c8c8d0;
+    padding: 6px 10px; border-radius: 4px; font-size: 13px; outline: none;
+    cursor: pointer;
+  }
+  .legend {
+    display: flex; gap: 14px; margin-left: auto; font-size: 12px; align-items: center;
+  }
+  .legend-item { display: flex; align-items: center; gap: 5px; }
+  .legend-dot {
+    width: 10px; height: 10px; border-radius: 50%; display: inline-block;
+  }
+  #detail-panel {
+    position: fixed; right: 0; top: 0; bottom: 0; width: 340px;
+    background: rgba(14,14,22,0.96); border-left: 1px solid #1e1e2e;
+    padding: 80px 20px 20px; overflow-y: auto; z-index: 90;
+    transform: translateX(100%); transition: transform 0.3s ease;
+    font-size: 13px; line-height: 1.6;
+  }
+  #detail-panel.open { transform: translateX(0); }
+  #detail-panel h2 { font-size: 18px; color: #e8e8f0; margin-bottom: 4px; }
+  #detail-panel .type-badge {
+    display: inline-block; padding: 2px 8px; border-radius: 3px;
+    font-size: 11px; font-weight: 600; text-transform: uppercase;
+    margin-bottom: 12px;
+  }
+  #detail-panel .episodes { color: #888; font-size: 12px; margin-bottom: 12px; }
+  #detail-panel .desc { color: #aaa; margin-bottom: 16px; }
+  #detail-panel h3 { font-size: 13px; color: #888; text-transform: uppercase; letter-spacing: 1px; margin: 14px 0 8px; }
+  #detail-panel .conn-list { list-style: none; }
+  #detail-panel .conn-list li {
+    padding: 6px 0; border-bottom: 1px solid #1a1a28; cursor: pointer;
+  }
+  #detail-panel .conn-list li:hover { color: #fff; }
+  #detail-panel .conn-label { color: #666; font-size: 11px; }
+  #close-panel {
+    position: absolute; top: 80px; right: 16px; background: none;
+    border: none; color: #666; font-size: 20px; cursor: pointer;
+  }
+  #close-panel:hover { color: #fff; }
+  svg { width: 100%; height: 100vh; }
+  .link { stroke-opacity: 0.25; }
+  .link-label {
+    font-size: 9px; fill: #555; pointer-events: none;
+    text-anchor: middle;
+  }
+  .node-label {
+    font-size: 11px; fill: #aaa; pointer-events: none;
+    text-anchor: middle; dominant-baseline: central;
+  }
+  .node-circle { cursor: pointer; stroke-width: 1.5; }
+  .node-circle:hover { stroke-width: 3; }
+  .dimmed { opacity: 0.08; }
+  .highlighted .node-label { fill: #fff; font-weight: 600; }
+  #tooltip {
+    position: fixed; background: rgba(20,20,30,0.95); border: 1px solid #2a2a38;
+    border-radius: 4px; padding: 8px 12px; font-size: 12px; pointer-events: none;
+    z-index: 200; display: none; max-width: 250px;
+  }
+</style>
+</head>
+<body>
+<div id="header">
+  <h1>{{TITLE}} <span>— Mind Map of Connections</span></h1>
+  <div id="controls">
+    <input type="text" id="search" placeholder="Search people, events, ideas...">
+    <select id="filter-type">
+      <option value="all">All Types</option>
+    </select>
+    <div class="legend" id="legend"></div>
+  </div>
+</div>
+<div id="detail-panel">
+  <button id="close-panel">&times;</button>
+  <div id="detail-content"></div>
+</div>
+<div id="tooltip"></div>
+<svg id="graph"></svg>
+
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script>
+// Injected graph data
+const graphData = {{DATA}};
+
+const typeColors = {};
+for (const [key, val] of Object.entries(graphData.types || {})) {
+  typeColors[key] = val.color;
+}
+
+// Build legend and type filter dynamically
+const legend = document.getElementById('legend');
+const filterType = document.getElementById('filter-type');
+for (const [key, val] of Object.entries(graphData.types || {})) {
+  legend.innerHTML += `<div class="legend-item"><span class="legend-dot" style="background:${val.color}"></span>${val.label}</div>`;
+  filterType.innerHTML += `<option value="${key}">${val.label}</option>`;
+}
+
+const nodes = graphData.nodes;
+const links = graphData.links;
+
+// Count connections per node
+const connCount = {};
+links.forEach(l => {
+  connCount[l.source] = (connCount[l.source]||0) + 1;
+  connCount[l.target] = (connCount[l.target]||0) + 1;
+});
+nodes.forEach(n => n.connCount = connCount[n.id] || 0);
+
+const svg = d3.select('#graph');
+const width = window.innerWidth;
+const height = window.innerHeight;
+svg.attr('viewBox', [0, 0, width, height]);
+
+const g = svg.append('g');
+const zoom = d3.zoom()
+  .scaleExtent([0.15, 5])
+  .on('zoom', e => g.attr('transform', e.transform));
+svg.call(zoom);
+
+const simulation = d3.forceSimulation(nodes)
+  .force('link', d3.forceLink(links).id(d => d.id).distance(120).strength(0.3))
+  .force('charge', d3.forceManyBody().strength(-350))
+  .force('center', d3.forceCenter(width/2, height/2))
+  .force('collision', d3.forceCollide().radius(d => nodeRadius(d) + 8))
+  .force('x', d3.forceX(width/2).strength(0.03))
+  .force('y', d3.forceY(height/2).strength(0.03));
+
+function nodeRadius(d) {
+  return Math.max(5, Math.min(22, 4 + d.connCount * 1.5));
+}
+
+// Draw links
+const linkG = g.append('g').selectAll('g').data(links).join('g');
+const linkLines = linkG.append('line')
+  .attr('class', 'link')
+  .attr('stroke', d => {
+    const src = typeof d.source === 'object' ? d.source : nodes.find(n=>n.id===d.source);
+    return typeColors[src?.type] || '#333';
+  })
+  .attr('stroke-width', 1);
+const linkLabels = linkG.append('text')
+  .attr('class', 'link-label')
+  .text(d => d.label);
+
+// Draw nodes
+const nodeG = g.append('g').selectAll('g').data(nodes).join('g')
+  .call(d3.drag()
+    .on('start', (e,d) => { if(!e.active) simulation.alphaTarget(0.3).restart(); d.fx=d.x; d.fy=d.y; })
+    .on('drag', (e,d) => { d.fx=e.x; d.fy=e.y; })
+    .on('end', (e,d) => { if(!e.active) simulation.alphaTarget(0); d.fx=null; d.fy=null; })
+  );
+
+nodeG.append('circle')
+  .attr('class', 'node-circle')
+  .attr('r', d => nodeRadius(d))
+  .attr('fill', d => typeColors[d.type])
+  .attr('stroke', d => d3.color(typeColors[d.type]).brighter(0.8))
+  .on('click', (e, d) => selectNode(d))
+  .on('mouseenter', (e, d) => showTooltip(e, d))
+  .on('mouseleave', hideTooltip);
+
+nodeG.append('text')
+  .attr('class', 'node-label')
+  .attr('dy', d => nodeRadius(d) + 14)
+  .text(d => d.label);
+
+simulation.on('tick', () => {
+  linkLines
+    .attr('x1', d => d.source.x).attr('y1', d => d.source.y)
+    .attr('x2', d => d.target.x).attr('y2', d => d.target.y);
+  linkLabels
+    .attr('x', d => (d.source.x+d.target.x)/2)
+    .attr('y', d => (d.source.y+d.target.y)/2 - 4);
+  nodeG.attr('transform', d => `translate(${d.x},${d.y})`);
+});
+
+// Tooltip
+const tooltip = document.getElementById('tooltip');
+function showTooltip(e, d) {
+  tooltip.style.display = 'block';
+  tooltip.style.left = (e.clientX + 14) + 'px';
+  tooltip.style.top = (e.clientY - 10) + 'px';
+  const epText = d.episodes ? ` · Ep ${d.episodes.join(', ')}` : '';
+  tooltip.innerHTML = `<strong>${d.label}</strong><br><span style="color:${typeColors[d.type]}">${d.type}</span> · ${d.connCount} connections${epText}`;
+}
+function hideTooltip() { tooltip.style.display = 'none'; }
+
+// Select node
+let selectedNode = null;
+function selectNode(d) {
+  selectedNode = d;
+  const panel = document.getElementById('detail-panel');
+  const content = document.getElementById('detail-content');
+
+  const connected = links.filter(l =>
+    (l.source.id||l.source)===d.id || (l.target.id||l.target)===d.id
+  );
+  const connNodes = connected.map(l => {
+    const otherId = (l.source.id||l.source)===d.id ? (l.target.id||l.target) : (l.source.id||l.source);
+    const other = nodes.find(n=>n.id===otherId);
+    const dir = (l.source.id||l.source)===d.id ? '→' : '←';
+    return {node:other, label:l.label, dir};
+  });
+
+  const epHtml = d.episodes ? `<div class="episodes">Episodes: ${d.episodes.join(', ')}</div>` : '';
+  content.innerHTML = `
+    <h2>${d.label}</h2>
+    <span class="type-badge" style="background:${typeColors[d.type]}33;color:${typeColors[d.type]}">${d.type}</span>
+    ${epHtml}
+    <div class="desc">${d.desc || ''}</div>
+    <h3>Connections (${connNodes.length})</h3>
+    <ul class="conn-list">
+      ${connNodes.map(c => `<li data-id="${c.node.id}"><span style="color:${typeColors[c.node.type]}">${c.dir}</span> <strong>${c.node.label}</strong> <span class="conn-label">${c.label}</span></li>`).join('')}
+    </ul>
+  `;
+  panel.classList.add('open');
+
+  content.querySelectorAll('.conn-list li').forEach(li => {
+    li.addEventListener('click', () => {
+      const n = nodes.find(n=>n.id===li.dataset.id);
+      if(n) selectNode(n);
+    });
+  });
+
+  // Highlight
+  const connIds = new Set([d.id, ...connNodes.map(c=>c.node.id)]);
+  const connLinkSet = new Set(connected.map(l => l.source.id + '-' + l.target.id));
+  nodeG.classed('dimmed', n => !connIds.has(n.id));
+  nodeG.classed('highlighted', n => connIds.has(n.id));
+  linkG.classed('dimmed', l => !connLinkSet.has(l.source.id+'-'+l.target.id));
+  linkLines.attr('stroke-opacity', l => connLinkSet.has(l.source.id+'-'+l.target.id) ? 0.7 : 0.05);
+  linkLabels.attr('fill-opacity', l => connLinkSet.has(l.source.id+'-'+l.target.id) ? 1 : 0);
+}
+
+document.getElementById('close-panel').addEventListener('click', () => {
+  document.getElementById('detail-panel').classList.remove('open');
+  selectedNode = null;
+  nodeG.classed('dimmed', false).classed('highlighted', false);
+  linkG.classed('dimmed', false);
+  linkLines.attr('stroke-opacity', 0.25);
+  linkLabels.attr('fill-opacity', 1);
+});
+
+// Search
+document.getElementById('search').addEventListener('input', function() {
+  const q = this.value.toLowerCase().trim();
+  if (!q) {
+    nodeG.classed('dimmed', false);
+    linkG.classed('dimmed', false);
+    linkLines.attr('stroke-opacity', 0.25);
+    return;
+  }
+  const matches = new Set(nodes.filter(n =>
+    n.label.toLowerCase().includes(q) || (n.desc || '').toLowerCase().includes(q)
+  ).map(n => n.id));
+  nodeG.classed('dimmed', n => !matches.has(n.id));
+  linkG.classed('dimmed', l => !matches.has(l.source.id) && !matches.has(l.target.id));
+  linkLines.attr('stroke-opacity', l =>
+    matches.has(l.source.id) || matches.has(l.target.id) ? 0.5 : 0.03
+  );
+});
+
+// Type filter
+document.getElementById('filter-type').addEventListener('change', function() {
+  const type = this.value;
+  if (type === 'all') {
+    nodeG.classed('dimmed', false);
+    linkG.classed('dimmed', false);
+    linkLines.attr('stroke-opacity', 0.25);
+    return;
+  }
+  const matches = new Set(nodes.filter(n => n.type === type).map(n => n.id));
+  nodeG.classed('dimmed', n => !matches.has(n.id));
+  linkG.classed('dimmed', l => !matches.has(l.source.id) && !matches.has(l.target.id));
+  linkLines.attr('stroke-opacity', l =>
+    matches.has(l.source.id) || matches.has(l.target.id) ? 0.5 : 0.03
+  );
+});
+
+// Center on load
+svg.call(zoom.transform, d3.zoomIdentity.translate(width/4, height/4).scale(0.6));
+</script>
+</body>
+</html>

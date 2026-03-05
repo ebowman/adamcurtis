@@ -1,0 +1,25 @@
+{
+  "name": "subtitle-graph",
+  "version": "0.1.0",
+  "description": "Transform subtitles and transcripts into interactive knowledge graphs",
+  "main": "cli.js",
+  "bin": {
+    "subtitle-graph": "./cli.js"
+  },
+  "scripts": {
+    "extract": "node cli.js extract",
+    "validate": "node cli.js validate",
+    "gaps": "node cli.js gaps",
+    "visualize": "node cli.js visualize",
+    "compare": "node cli.js compare",
+    "test": "node test/test.js"
+  },
+  "keywords": ["knowledge-graph", "subtitles", "d3", "visualization", "entity-extraction"],
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^12.0.0"
+  },
+  "optionalDependencies": {
+    "@anthropic-ai/sdk": "^0.39.0"
+  }
+}

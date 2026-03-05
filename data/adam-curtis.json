@@ -1,0 +1,3848 @@
+{
+  "meta": {
+    "title": "Can't Get You Out of My Head",
+    "source": "Adam Curtis, BBC, 2021",
+    "generated": "2026-03-05",
+    "description": "An Emotional History of the Modern World — 6 episodes mapping the hidden connections between power, individualism, and conspiracy across the 20th and 21st centuries."
+  },
+  "types": {
+    "person": {
+      "color": "#4a8fe7",
+      "label": "Person"
+    },
+    "event": {
+      "color": "#e8943a",
+      "label": "Event"
+    },
+    "idea": {
+      "color": "#5cb85c",
+      "label": "Idea/Theory"
+    },
+    "place": {
+      "color": "#d9534f",
+      "label": "Place"
+    },
+    "work": {
+      "color": "#9b59b6",
+      "label": "Work/Creation"
+    }
+  },
+  "nodes": [
+    {
+      "id": "george_boole",
+      "label": "George Boole",
+      "type": "person",
+      "episodes": [
+        1
+      ],
+      "desc": "Victorian mathematician who invented Boolean logic — binary system of thought (if/then) that became the foundation of all computing."
+    },
+    {
+      "id": "ethel_boole",
+      "label": "Ethel Boole",
+      "type": "person",
+      "episodes": [
+        1
+      ],
+      "desc": "George Boole's daughter. Went to Russia, wrote The Gadfly — a revolutionary novel that inspired millions in Russia and China without her knowing."
+    },
+    {
+      "id": "geoffrey_hinton",
+      "label": "Geoffrey Hinton",
+      "type": "person",
+      "episodes": [
+        6
+      ],
+      "desc": "Boole's great-great-grandson. Solved AI by feeding mass data into neural networks instead of rules. Created 'Vector-World' at Google."
+    },
+    {
+      "id": "jiang_qing",
+      "label": "Jiang Qing",
+      "type": "person",
+      "episodes": [
+        1,
+        2,
+        3,
+        5
+      ],
+      "desc": "Mao's wife. Used the Cultural Revolution to take revenge on those who'd held back her film career. Hanged herself in 1991 after hoarding socks for a rope."
+    },
+    {
+      "id": "mao_zedong",
+      "label": "Mao Zedong",
+      "type": "person",
+      "episodes": [
+        1,
+        2,
+        3
+      ],
+      "desc": "Used Jiang Qing and the violence she created to destroy rivals, then turned on her: 'grandiose aims but puny abilities.'"
+    },
+    {
+      "id": "deng_xiaoping",
+      "label": "Deng Xiaoping",
+      "type": "person",
+      "episodes": [
+        3,
+        5
+      ],
+      "desc": "Replaced revolutionary dreams with money. Used cheap goods as 'the equivalent of opium' to reverse China's century of humiliation."
+    },
+    {
+      "id": "xi_jinping",
+      "label": "Xi Jinping",
+      "type": "person",
+      "episodes": [
+        6
+      ],
+      "desc": "Created Algorithmic Governance / Social Credit — a system where what goes on inside people's heads is 'completely irrelevant.'"
+    },
+    {
+      "id": "nixon",
+      "label": "Richard Nixon",
+      "type": "person",
+      "episodes": [
+        3
+      ],
+      "desc": "Told a psychiatrist that when he looked in the mirror, 'it was as if there was no-one there.' Created the enemies list. Let go of the gold standard."
+    },
+    {
+      "id": "kerry_thornley",
+      "label": "Kerry Thornley",
+      "type": "person",
+      "episodes": [
+        1,
+        3
+      ],
+      "desc": "Co-founder of Discordianism. Marine buddy of Oswald. Started Operation Mindfuck to parody conspiracies — then fell victim to one himself."
+    },
+    {
+      "id": "greg_hill",
+      "label": "Greg Hill",
+      "type": "person",
+      "episodes": [
+        1,
+        3
+      ],
+      "desc": "Co-created Operation Mindfuck with Thornley. Became an alcoholic: 'my sheer damn inability to know anything with any deep level of certainty.'"
+    },
+    {
+      "id": "tupac",
+      "label": "Tupac Shakur",
+      "type": "person",
+      "episodes": [
+        6
+      ],
+      "desc": "'The black prince of the revolution.' Attacked Illuminati conspiracy theories as avoidance. Shot dead in 1996; no one knows who did it."
+    },
+    {
+      "id": "afeni_shakur",
+      "label": "Afeni Shakur",
+      "type": "person",
+      "episodes": [
+        2,
+        6
+      ],
+      "desc": "Black Panther, Tupac's mother. Suspected an undercover cop in her cell — she was right but no one believed her. Became addicted to crack."
+    },
+    {
+      "id": "michael_x",
+      "label": "Michael X",
+      "type": "person",
+      "episodes": [
+        1,
+        2
+      ],
+      "desc": "Born Michael de Freitas. Coined 'Englishism.' Revolution collapsed into drug dealing. Murdered a follower. Executed in Trinidad."
+    },
+    {
+      "id": "peter_rachman",
+      "label": "Peter Rachman",
+      "type": "person",
+      "episodes": [
+        1
+      ],
+      "desc": "Polish Jew. Survived Nazi sterilisation, Russian cannibalism camps, WWII. Became London's most hated landlord — but was the only one housing immigrants."
+    },
+    {
+      "id": "daniel_kahneman",
+      "label": "Daniel Kahneman",
+      "type": "person",
+      "episodes": [
+        2,
+        4,
+        6
+      ],
+      "desc": "Nobel-winning psychologist. As a child, an SS officer kissed him instead of killing him. Concluded the 'self' is a simplifying accessory to the brain."
+    },
+    {
+      "id": "bf_skinner",
+      "label": "B.F. Skinner",
+      "type": "person",
+      "episodes": [
+        6
+      ],
+      "desc": "Behaviourist who trained pigeons with rewards. Wrote Walden Two about a utopia of operant conditioning. Prototype for social credit."
+    },
+    {
+      "id": "horst_herold",
+      "label": "Horst Herold",
+      "type": "person",
+      "episodes": [
+        2
+      ],
+      "desc": "Invented mass electronic surveillance to catch terrorists. Warned: reform the system or build global surveillance to control the anger."
+    },
+    {
+      "id": "horst_mahler",
+      "label": "Horst Mahler",
+      "type": "person",
+      "episodes": [
+        2
+      ],
+      "desc": "German revolutionary who found Hitler pictures in a Palestinian training camp. Later became a neo-Nazi."
+    },
+    {
+      "id": "andreas_baader",
+      "label": "Andreas Baader",
+      "type": "person",
+      "episodes": [
+        2
+      ],
+      "desc": "Red Army Faction leader who declared 'Fucking and shooting are the same thing' at a Palestinian camp."
+    },
+    {
+      "id": "gertrude_bell",
+      "label": "Gertrude Bell",
+      "type": "person",
+      "episodes": [
+        5
+      ],
+      "desc": "Daughter of a baronet. Projected a romantic English dream onto Iraq: 'The sheiks are like great aristocrats.'"
+    },
+    {
+      "id": "cecil_sharp",
+      "label": "Cecil Sharp",
+      "type": "person",
+      "episodes": [
+        5
+      ],
+      "desc": "Recorded folk songs and dances to create 'a new kind of English nationalism' based on the idea of the folk — taken from German nationalism."
+    },
+    {
+      "id": "saddam",
+      "label": "Saddam Hussein",
+      "type": "person",
+      "episodes": [
+        5
+      ],
+      "desc": "Given a list of communists by the CIA. Commissioned a propaganda film directed by the same man who made Dr No."
+    },
+    {
+      "id": "terence_young",
+      "label": "Terence Young",
+      "type": "person",
+      "episodes": [
+        5
+      ],
+      "desc": "British director who made both James Bond's Dr No AND Saddam Hussein's propaganda film about the 1963 coup."
+    },
+    {
+      "id": "abu_zubaydah",
+      "label": "Abu Zubaydah",
+      "type": "person",
+      "episodes": [
+        6
+      ],
+      "desc": "Jihadist who loved Chris de Burgh. Shrapnel in the brain fragmented his identity. Waterboarded 83 times; memories from Godzilla became intelligence."
+    },
+    {
+      "id": "putin",
+      "label": "Vladimir Putin",
+      "type": "person",
+      "episodes": [
+        6
+      ],
+      "desc": "'A man who believed in nothing.' Selected by oligarchs. Discovered populist anger as a power source. Became Western liberals' dark mythological villain."
+    },
+    {
+      "id": "limonov",
+      "label": "Eduard Limonov",
+      "type": "person",
+      "episodes": [
+        3,
+        4,
+        6
+      ],
+      "desc": "Poet, provocateur. Founded National Bolsheviks ('fusion of fascism and communism'). Fired a machine gun into Sarajevo. His novel poisoned a generation."
+    },
+    {
+      "id": "bo_xilai",
+      "label": "Bo Xilai",
+      "type": "person",
+      "episodes": [
+        6
+      ],
+      "desc": "Chinese princeling who sang Maoist songs while allegedly running a corrupt empire. Sent his son to Harrow. Wife murdered Neil Heywood."
+    },
+    {
+      "id": "neil_heywood",
+      "label": "Neil Heywood",
+      "type": "person",
+      "episodes": [
+        6
+      ],
+      "desc": "Englishman in Beijing. Drove an Aston Martin with plate '007'. Dropped MI6 hints. Found dead in the Lucky Holiday Hotel, Chongqing."
+    },
+    {
+      "id": "ewen_cameron",
+      "label": "Ewen Cameron",
+      "type": "person",
+      "episodes": [
+        1
+      ],
+      "desc": "CIA psychiatrist who ran MKUltra at the Allan Memorial. Used electroshocks and LSD to wipe minds. Failed completely to implant new ones."
+    },
+    {
+      "id": "betty_ford",
+      "label": "Betty Ford",
+      "type": "person",
+      "episodes": [
+        3
+      ],
+      "desc": "First Lady who revealed her Valium addiction, exposing 'a private, hidden world of anxiety' across America."
+    },
+    {
+      "id": "arthur_sackler",
+      "label": "Arthur Sackler",
+      "type": "person",
+      "episodes": [
+        3,
+        5
+      ],
+      "desc": "Marketed Valium as non-addictive. His company later created OxyContin — synthetic opium for post-industrial America."
+    },
+    {
+      "id": "bill_clinton",
+      "label": "Bill Clinton",
+      "type": "person",
+      "episodes": [
+        4,
+        6
+      ],
+      "desc": "Gave power to bankers within weeks of entering the White House. 'The era of big government is over.' Brought in mass incarceration."
+    },
+    {
+      "id": "tony_blair",
+      "label": "Tony Blair",
+      "type": "person",
+      "episodes": [
+        4,
+        5
+      ],
+      "desc": "Six historians explained Iraq's complexity. Silence. 'Saddam Hussein is an evil man who needs to be removed.' The historians left."
+    },
+    {
+      "id": "dom_cummings",
+      "label": "Dominic Cummings",
+      "type": "person",
+      "episodes": [
+        6
+      ],
+      "desc": "Used complexity theory and data to drive Brexit. Saw it as a way to demolish failed elites, not an end in itself."
+    },
+    {
+      "id": "jim_garrison",
+      "label": "Jim Garrison",
+      "type": "person",
+      "episodes": [
+        1
+      ],
+      "desc": "Created the JFK conspiracy theory using 'Time and Propinquity' — look for patterns, not meaning. Falsely accused Thornley."
+    },
+    {
+      "id": "gell_mann",
+      "label": "Murray Gell-Mann",
+      "type": "person",
+      "episodes": [
+        6
+      ],
+      "desc": "Discovered quarks. Promoted Complexity Theory — patterns exist at every level of the universe. Inspired Dominic Cummings."
+    },
+    {
+      "id": "julia_grant",
+      "label": "Julia Grant",
+      "type": "person",
+      "episodes": [
+        4
+      ],
+      "desc": "Trans woman whose psychiatrist refused surgery because she was 'not ladylike enough.' Won her fight but ended up alone."
+    },
+    {
+      "id": "chai_ling",
+      "label": "Chai Ling",
+      "type": "person",
+      "episodes": [
+        4
+      ],
+      "desc": "Tiananmen student leader who studied Maslow's self-actualisation. Told a journalist she was 'hoping for bloodshed' — then fled."
+    },
+    {
+      "id": "bernard_kouchner",
+      "label": "Bernard Kouchner",
+      "type": "person",
+      "episodes": [
+        4
+      ],
+      "desc": "Founded Medecins Sans Frontieres. His rescue of Vietnamese refugees undermined Western liberals' self-belief."
+    },
+    {
+      "id": "von_neumann",
+      "label": "John von Neumann",
+      "type": "person",
+      "episodes": [
+        3
+      ],
+      "desc": "Created the pattern of detonations inside the atomic bomb. Built climate models to weaponise weather against the USSR."
+    },
+    {
+      "id": "miles_copeland",
+      "label": "Miles Copeland",
+      "type": "person",
+      "episodes": [
+        5
+      ],
+      "desc": "Senior CIA officer who openly admitted organising coups worldwide starting with Syria in 1951."
+    },
+    {
+      "id": "gazzaniga",
+      "label": "Michael Gazzaniga",
+      "type": "person",
+      "episodes": [
+        6
+      ],
+      "desc": "Neuroscientist who studied split-brain patients. Argued humans have multiple selves; the conscious one just makes up stories."
+    },
+    {
+      "id": "politkovskaya",
+      "label": "Anna Politkovskaya",
+      "type": "person",
+      "episodes": [
+        6
+      ],
+      "desc": "Journalist who said Putin 'has nothing to debate. He has no programme, no personality, no interests.' Shot dead outside her apartment."
+    },
+    {
+      "id": "li_lili",
+      "label": "Li Lili",
+      "type": "person",
+      "episodes": [
+        1,
+        2
+      ],
+      "desc": "Film star who Jiang Qing believed upstaged her in 1934. Decades later, Jiang Qing had her tortured; her husband killed himself."
+    },
+    {
+      "id": "plisetskaya",
+      "label": "Maya Plisetskaya",
+      "type": "person",
+      "episodes": [
+        1
+      ],
+      "desc": "Most famous ballerina in the world. Father executed, mother sent to Siberia. Wrote: 'I don't want a cage, even if it is a platinum one.'"
+    },
+    {
+      "id": "robin_douglas_home",
+      "label": "Robin Douglas-Home",
+      "type": "person",
+      "episodes": [
+        1
+      ],
+      "desc": "Nephew of PM. Married Sandra Paul, insisted she stop modelling. Later caught with the Marchioness of Londonderry. Committed suicide."
+    },
+    {
+      "id": "sandra_paul",
+      "label": "Sandra Paul",
+      "type": "person",
+      "episodes": [
+        1
+      ],
+      "desc": "Model who married into ruling class. Escaped patriarchal marriage: 'I had to be ruthless in order to be free.'"
+    },
+    {
+      "id": "lumumba",
+      "label": "Patrice Lumumba",
+      "type": "person",
+      "episodes": [
+        5
+      ],
+      "desc": "Congo's PM. Killed by CIA because copper was crucial to US electronics. Replaced by Mobutu, whose dictatorship lasted 30 years."
+    },
+    {
+      "id": "mobutu",
+      "label": "Colonel Mobutu",
+      "type": "person",
+      "episodes": [
+        5
+      ],
+      "desc": "Brutal dictator installed by CIA after killing Lumumba. Americans supported his regime for 30 years."
+    },
+    {
+      "id": "percy_cradock",
+      "label": "Sir Percy Cradock",
+      "type": "person",
+      "episodes": [
+        5
+      ],
+      "desc": "Head of Joint Intelligence Committee. Thought Soviet collapse was fake. Later agreed Hong Kong was never democratic under Britain."
+    },
+    {
+      "id": "le_carre",
+      "label": "John le Carré",
+      "type": "person",
+      "episodes": [
+        5
+      ],
+      "desc": "MI6 spy turned novelist. Understood the secret world was about recreating Empire: 'bug, burgle, assassinate without fear of judgment.'"
+    },
+    {
+      "id": "blunt",
+      "label": "Anthony Blunt",
+      "type": "person",
+      "episodes": [
+        5
+      ],
+      "desc": "Surveyor of the Queen's Pictures. Confirmed he was a Russian spy. Given total immunity to avoid embarrassing the Queen."
+    },
+    {
+      "id": "herbert_bayer",
+      "label": "Herbert Bayer",
+      "type": "person",
+      "episodes": [
+        6
+      ],
+      "desc": "German refugee who designed The Family of Man as 'a new kind of propaganda' — the individual self surrounded by images, making their own story."
+    },
+    {
+      "id": "hofstadter",
+      "label": "Richard Hofstadter",
+      "type": "person",
+      "episodes": [
+        1
+      ],
+      "desc": "Political scientist. Argued American paranoia was built into the country from its founding — 'a much larger darkness in the structure of America itself.'"
+    },
+    {
+      "id": "wang_huning",
+      "label": "Wang Huning",
+      "type": "person",
+      "episodes": [
+        6
+      ],
+      "desc": "China's chief government advisor. Called the corruption 'ultra corruption' — so extensive it was hollowing out the political system."
+    },
+    {
+      "id": "gu_kailai",
+      "label": "Gu Kailai",
+      "type": "person",
+      "episodes": [
+        6
+      ],
+      "desc": "Bo Xilai's wife, a lawyer. Given a suspended death sentence for poisoning Neil Heywood. Glamorous couple who sent their son to Harrow."
+    },
+    {
+      "id": "navalny",
+      "label": "Alexei Navalny",
+      "type": "person",
+      "episodes": [
+        6
+      ],
+      "desc": "Internet blogger who chanted the phrase that redefined Russia for an apolitical generation. Arrested; tens of thousands protested."
+    },
+    {
+      "id": "jiang_zemin",
+      "label": "Jiang Zemin",
+      "type": "person",
+      "episodes": [
+        5
+      ],
+      "desc": "Instructed China to buy US government debt — creating 'a safe bubble wrapped around the United States' that funded America's dream world."
+    },
+    {
+      "id": "david_graeber",
+      "label": "David Graeber",
+      "type": "person",
+      "episodes": [
+        6
+      ],
+      "desc": "Anthropologist and activist. Died 2020. Described 'the ultimate hidden truth of the world' — a forgotten idea about collective action."
+    },
+    {
+      "id": "woodrow_wilson",
+      "label": "Woodrow Wilson",
+      "type": "person",
+      "episodes": [
+        5
+      ],
+      "desc": "President who dreamed of spreading American democracy globally. Congress refused. The dream collapsed into economic depression and race riots."
+    },
+    {
+      "id": "rodney_king",
+      "label": "Rodney King",
+      "type": "person",
+      "episodes": [
+        5
+      ],
+      "desc": "Beaten by four LA police officers despite offering no resistance. Officers acquitted by white jury. Six days of riots followed."
+    },
+    {
+      "id": "morgenthau",
+      "label": "Hans Morgenthau",
+      "type": "person",
+      "episodes": [
+        5
+      ],
+      "desc": "Named America's hidden system of power 'the Dual State.' Warned the secrecy was 'creating a dangerous time bomb at the heart of America.'"
+    },
+    {
+      "id": "harry_caudill",
+      "label": "Harry Caudill",
+      "type": "person",
+      "episodes": [
+        3
+      ],
+      "desc": "Represented Appalachian miners. Predicted their anger would 'infect all of America.' Shot himself when diagnosed with Parkinson's."
+    },
+    {
+      "id": "king_faisal",
+      "label": "King Faisal",
+      "type": "person",
+      "episodes": [
+        3
+      ],
+      "desc": "Used oil as a weapon in 1973. Within three years Saudi Arabia had more foreign currency than Japan, Germany and the US combined."
+    },
+    {
+      "id": "vladimir_komarov",
+      "label": "Vladimir Komarov",
+      "type": "person",
+      "episodes": [
+        3
+      ],
+      "desc": "Cosmonaut killed in Soyuz 1. Demanded an open casket — 'his revenge.' Gagarin found hundreds of faults but the Party refused to stop the launch."
+    },
+    {
+      "id": "yuri_gagarin",
+      "label": "Yuri Gagarin",
+      "type": "person",
+      "episodes": [
+        3
+      ],
+      "desc": "First man in space. Inspected Komarov's spacecraft, found hundreds of faults, begged them not to launch. They ignored him."
+    },
+    {
+      "id": "lin_biao",
+      "label": "Lin Biao",
+      "type": "person",
+      "episodes": [
+        3
+      ],
+      "desc": "Head of People's Army. Mao tricked him into plotting a coup. Fled in a plane that crashed in Mongolia."
+    },
+    {
+      "id": "wei_jingsheng",
+      "label": "Wei Jingsheng",
+      "type": "person",
+      "episodes": [
+        4
+      ],
+      "desc": "Electrician at Beijing Zoo. Posted on Democracy Wall calling Deng 'a new fascist dictator.' Arrested, given 15 years."
+    },
+    {
+      "id": "stokely_carmichael",
+      "label": "Stokely Carmichael",
+      "type": "person",
+      "episodes": [
+        2
+      ],
+      "desc": "First to articulate 'Black Power' — on a march when MLK was absent. Electrified a generation and terrified white America."
+    },
+    {
+      "id": "colonel_mengistu",
+      "label": "Colonel Mengistu",
+      "type": "person",
+      "episodes": [
+        4
+      ],
+      "desc": "Ethiopian tyrant who used Live Aid food as a weapon. Forced mass relocations that killed 100,000 people."
+    },
+    {
+      "id": "bob_geldof",
+      "label": "Bob Geldof",
+      "type": "person",
+      "episodes": [
+        4
+      ],
+      "desc": "Live Aid organiser. Horrified when he discovered Colonel Mengistu was using food aid as a weapon of mass relocation."
+    },
+    {
+      "id": "peter_mair",
+      "label": "Peter Mair",
+      "type": "person",
+      "episodes": [
+        4
+      ],
+      "desc": "Political scientist who argued democracy didn't collapse — it was quietly abandoned by politicians who 'changed their roles' in the 1990s."
+    },
+    {
+      "id": "tony_martin",
+      "label": "Tony Martin",
+      "type": "person",
+      "episodes": [
+        4
+      ],
+      "desc": "Norfolk farmer who shot burglars. Uncle was a League of Empire Loyalist. Linked Brexit-era anger to post-imperial conspiracy."
+    },
+    {
+      "id": "edward_lorenz",
+      "label": "Edward Lorenz",
+      "type": "person",
+      "episodes": [
+        3
+      ],
+      "desc": "Discovered Chaos Theory by accident — a rounding error in a climate model produced wildly different results."
+    },
+    {
+      "id": "yegor_letov",
+      "label": "Yegor Letov",
+      "type": "person",
+      "episodes": [
+        4
+      ],
+      "desc": "Musician. Third member of Limonov's National Bolsheviks. Led opposition to communism in the 1980s. Sang of Russia trapped in frozen fragments."
+    },
+    {
+      "id": "edgar_mittelholzer",
+      "label": "Edgar Mittelholzer",
+      "type": "person",
+      "episodes": [
+        2
+      ],
+      "desc": "Novelist from British Guiana. Wrote about colonial ghosts. Listened to Wagner every evening. Poured paraffin over himself and burned to death."
+    },
+    {
+      "id": "enoch_powell",
+      "label": "Enoch Powell",
+      "type": "person",
+      "episodes": [
+        2
+      ],
+      "desc": "Made violent anti-immigrant speech but wasn't charged — while Michael X was jailed for 10 months for similar words."
+    },
+    {
+      "id": "fareed_zakaria",
+      "label": "Fareed Zakaria",
+      "type": "person",
+      "episodes": [
+        4
+      ],
+      "desc": "Political scientist who asked: 'The American people are not stupid — but what if they are?'"
+    },
+    {
+      "id": "giandomenico_majone",
+      "label": "Giandomenico Majone",
+      "type": "person",
+      "episodes": [
+        4
+      ],
+      "desc": "EU technocrat who designed 'non-majoritarian institutions' — bureaucracies 'by design not directly accountable to voters.'"
+    },
+    {
+      "id": "joan_baez",
+      "label": "Joan Baez",
+      "type": "person",
+      "episodes": [
+        4
+      ],
+      "desc": "Attacked by Jane Fonda for supporting Kouchner's rescue of Vietnamese refugees — accused of being 'an unwitting agent of American imperialism.'"
+    },
+    {
+      "id": "richard_holbrooke",
+      "label": "Richard Holbrooke",
+      "type": "person",
+      "episodes": [
+        4
+      ],
+      "desc": "Clinton's Balkans representative. Posed the dilemma: what if free elections elect racists and fascists?"
+    },
+    {
+      "id": "boris_yeltsin",
+      "label": "Boris Yeltsin",
+      "type": "person",
+      "episodes": [
+        4
+      ],
+      "desc": "'Drunk most of the time.' Puppet of the oligarchs. Shock therapy created chaos. Limonov emerged as his most unlikely opponent."
+    },
+    {
+      "id": "john_birch_society",
+      "label": "John Birch Society",
+      "type": "person",
+      "episodes": [
+        1
+      ],
+      "desc": "Extreme right group that spread the theory that Eisenhower was 'a dedicated, conscious agent of the Russians.' Fuelled suburban paranoia."
+    },
+    {
+      "id": "night_wolves",
+      "label": "Night Wolves",
+      "type": "person",
+      "episodes": [
+        6
+      ],
+      "desc": "Extreme nationalist motorcycle club who became Putin's bodyguards. Staged mass shows dramatising Illuminati/Obama conspiracy theories."
+    },
+    {
+      "id": "wen_jiabao",
+      "label": "Wen Jiabao",
+      "type": "person",
+      "episodes": [
+        6
+      ],
+      "desc": "Chinese Premier who warned: 'Unless you have political reform and open up the society for democratic debate, those ghosts will always threaten.'"
+    },
+    {
+      "id": "tang_na",
+      "label": "Tang Na",
+      "type": "person",
+      "episodes": [
+        1
+      ],
+      "desc": "Jiang Qing's first husband, a famous writer. She left him. He tried to commit suicide by jumping in a river but 'the water was very cold, so he jumped up again.'"
+    },
+    {
+      "id": "cultural_revolution",
+      "label": "Cultural Revolution",
+      "type": "event",
+      "episodes": [
+        1,
+        2,
+        3
+      ],
+      "desc": "Jiang Qing's weapon and prison. Unleashed anger and violence that China had buried for centuries. Mass killings, suicides, thought crimes."
+    },
+    {
+      "id": "tiananmen",
+      "label": "Tiananmen Square",
+      "type": "event",
+      "episodes": [
+        4,
+        5
+      ],
+      "desc": "1989. Chai Ling called for bloodshed then fled. Deng sent in tanks. Became the foundation for China's 'Century of Humiliation' propaganda."
+    },
+    {
+      "id": "iraq_invasion",
+      "label": "Iraq Invasion (2003)",
+      "type": "event",
+      "episodes": [
+        5
+      ],
+      "desc": "Six historians warned Blair. He ignored them. Cost $1B/day. Americans repeated the British mistake of empowering tribes over cities."
+    },
+    {
+      "id": "911",
+      "label": "September 11 Attacks",
+      "type": "event",
+      "episodes": [
+        6
+      ],
+      "desc": "'We failed to join up the dots.' Led to Patriot Act, which removed obstacles to Google's data collection. Privacy became irrelevant."
+    },
+    {
+      "id": "2008_crash",
+      "label": "2008 Financial Crash",
+      "type": "event",
+      "episodes": [
+        6
+      ],
+      "desc": "Algorithms cut up toxic mortgages until no one could see the absurdity. Governments bailed out banks, transferred debt to the public."
+    },
+    {
+      "id": "hong_kong_handover",
+      "label": "Hong Kong Handover",
+      "type": "event",
+      "episodes": [
+        5
+      ],
+      "desc": "Chinese sang Rod Stewart to departing British. Sir Percy Cradock agreed: Britain had never allowed democracy in Hong Kong."
+    },
+    {
+      "id": "opium_wars",
+      "label": "Opium Wars",
+      "type": "event",
+      "episodes": [
+        5
+      ],
+      "desc": "Britain forced opium onto China, received silver in return. One historian: 'the British Empire was rotten at its heart.'"
+    },
+    {
+      "id": "la_riots",
+      "label": "LA Riots (1992)",
+      "type": "event",
+      "episodes": [
+        5
+      ],
+      "desc": "Six days after Rodney King verdict. 'Fuck everybody, I'm off.' National Guard deployed. Nothing had really changed since the 1960s."
+    },
+    {
+      "id": "kursk",
+      "label": "Kursk Submarine Disaster",
+      "type": "event",
+      "episodes": [
+        6
+      ],
+      "desc": "Putin discovered populist anger as a power source by blaming the oligarchs for the deaths of 118 sailors."
+    },
+    {
+      "id": "birth_of_nation",
+      "label": "Birth of a Nation (1915)",
+      "type": "event",
+      "episodes": [
+        5
+      ],
+      "desc": "Film that caused a sensation. KKK copied its costumes — which the novelist had invented from Walter Scott's fiction."
+    },
+    {
+      "id": "watergate",
+      "label": "Watergate",
+      "type": "event",
+      "episodes": [
+        3
+      ],
+      "desc": "Nixon's own conspiracy exposed. In its wake, CIA assassinations, MKUltra, and other real conspiracies leaked out."
+    },
+    {
+      "id": "brexit",
+      "label": "Brexit",
+      "type": "event",
+      "episodes": [
+        6
+      ],
+      "desc": "Cummings used complexity theory. But the campaign awakened ghosts from Britain's imperial past. 'Take back control' meant different things to different people."
+    },
+    {
+      "id": "awakening",
+      "label": "The Awakening (Iraq)",
+      "type": "event",
+      "episodes": [
+        5
+      ],
+      "desc": "US paid tribal militias to fight al-Qaida. When the money stopped, the tribes allied with the jihadists. ISIS was born."
+    },
+    {
+      "id": "asian_crisis",
+      "label": "Asian Financial Crisis (1997-98)",
+      "type": "event",
+      "episodes": [
+        5
+      ],
+      "desc": "Western banks looted Asian economies. IMF loans were used to extract more money. Confirmed Chinese paranoia about Western conspiracy."
+    },
+    {
+      "id": "dotcom",
+      "label": "Dot-Com Crash",
+      "type": "event",
+      "episodes": [
+        6
+      ],
+      "desc": "$100K computers auctioned for 10 cents on the dollar. Google survived but venture capitalists took control. The search for profit began."
+    },
+    {
+      "id": "tulsa_massacre",
+      "label": "Tulsa Massacre (1921)",
+      "type": "event",
+      "episodes": [
+        5
+      ],
+      "desc": "White mob attacked black areas, even using aircraft to drop bombs. Out of this fear came the modern KKK."
+    },
+    {
+      "id": "entebbe",
+      "label": "Entebbe Hijacking",
+      "type": "event",
+      "episodes": [
+        2
+      ],
+      "desc": "German anti-fascists helped Palestinians hijack a plane and separated Israeli from non-Israeli passengers — 'behaving exactly as the Nazis had done.'"
+    },
+    {
+      "id": "panther_21",
+      "label": "Panther 21 Trial",
+      "type": "event",
+      "episodes": [
+        2
+      ],
+      "desc": "Three founding members of the Black Panther cell were undercover police — the most active members. All 21 acquitted after Afeni's defence."
+    },
+    {
+      "id": "birmingham_six",
+      "label": "Birmingham Six Release",
+      "type": "event",
+      "episodes": [
+        5
+      ],
+      "desc": "Held for 16½ years. Establishment knew they were innocent: 'an unshakeable conviction that the establishment must never be shown to be wrong.'"
+    },
+    {
+      "id": "congo_coup",
+      "label": "Congo Coup / Lumumba",
+      "type": "event",
+      "episodes": [
+        5
+      ],
+      "desc": "CIA killed Lumumba because Congo's copper was crucial to US electronics. Installed Mobutu for 30 years. Slave trade origins came full circle."
+    },
+    {
+      "id": "oil_crisis",
+      "label": "Oil Crisis (1973)",
+      "type": "event",
+      "episodes": [
+        3
+      ],
+      "desc": "King Faisal raised oil prices 4x. Petrodollars flooded Western banks, creating international currency free of government control."
+    },
+    {
+      "id": "mau_mau",
+      "label": "Mau Mau / Kenya Camps",
+      "type": "event",
+      "episodes": [
+        1
+      ],
+      "desc": "British put hundreds of thousands of Kenyans in camps for 'psychological adjustment.' Chief psychologist aimed to manipulate 'the African mind.' Mass torture."
+    },
+    {
+      "id": "soyuz_1",
+      "label": "Soyuz 1 Disaster",
+      "type": "event",
+      "episodes": [
+        3
+      ],
+      "desc": "Komarov died because Party insisted launch go ahead despite hundreds of faults. Demanded open casket as revenge."
+    },
+    {
+      "id": "democracy_wall",
+      "label": "Democracy Wall",
+      "type": "event",
+      "episodes": [
+        4
+      ],
+      "desc": "Deng allowed brief free expression in Beijing. Wei Jingsheng called him a fascist dictator. Wall shut down, Wei arrested."
+    },
+    {
+      "id": "live_aid",
+      "label": "Live Aid",
+      "type": "event",
+      "episodes": [
+        4
+      ],
+      "desc": "Geldof raised millions for Ethiopia. Mengistu used food as weapon. MSF estimated aid caused as many deaths as it saved."
+    },
+    {
+      "id": "camp_century",
+      "label": "Camp Century / Project Iceworm",
+      "type": "event",
+      "episodes": [
+        3
+      ],
+      "desc": "US base in Greenland hiding 600 nuclear missiles under ice. Ice cores revealed 10-degree temperature shifts in centuries."
+    },
+    {
+      "id": "kosovo",
+      "label": "Kosovo Intervention",
+      "type": "event",
+      "episodes": [
+        4
+      ],
+      "desc": "Blair persuaded reluctant Clinton to bomb Serbia. Kouchner became ruler of independent Kosovo. Politicians reclaimed moral purpose."
+    },
+    {
+      "id": "algerian_election",
+      "label": "Algerian Election Crisis",
+      "type": "event",
+      "episodes": [
+        4
+      ],
+      "desc": "Islamic Salvation Front won. Western politicians supported a military coup to stop democracy producing 'the wrong kind of result.'"
+    },
+    {
+      "id": "second_empire",
+      "label": "The Second Empire",
+      "type": "event",
+      "episodes": [
+        6
+      ],
+      "desc": "Anti-corruption investigators' name for the City of London's offshore network. Hundreds of billions laundered through secretive territories."
+    },
+    {
+      "id": "boolean_logic",
+      "label": "Boolean Logic",
+      "type": "idea",
+      "episodes": [
+        1,
+        6
+      ],
+      "desc": "Binary system: if/then, 0/1. Born from imperial desire to map and control. Became the foundation of all computers and algorithms."
+    },
+    {
+      "id": "op_mindfuck",
+      "label": "Operation Mindfuck",
+      "type": "idea",
+      "episodes": [
+        1,
+        3
+      ],
+      "desc": "Fake Illuminati conspiracy seeded into counterculture via Playboy. Meant to parody conspiracies; instead became the template for real ones."
+    },
+    {
+      "id": "individualism",
+      "label": "Individualism",
+      "type": "idea",
+      "episodes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "desc": "Central ideology of the modern age. Curtis argues it promised liberation but delivered isolation and made people easier to manage."
+    },
+    {
+      "id": "chaos_theory",
+      "label": "Chaos Theory",
+      "type": "idea",
+      "episodes": [
+        3,
+        6
+      ],
+      "desc": "Tiny changes cause massive unpredictable consequences. Edward Lorenz discovered it by accident. Rose up as the Soviet Union collapsed."
+    },
+    {
+      "id": "complexity_theory",
+      "label": "Complexity Theory",
+      "type": "idea",
+      "episodes": [
+        6
+      ],
+      "desc": "Computers can see hidden patterns humans can't. Murray Gell-Mann. Influenced Cummings. Foundation of today's data-dominated world."
+    },
+    {
+      "id": "social_credit",
+      "label": "Social Credit System",
+      "type": "idea",
+      "episodes": [
+        6
+      ],
+      "desc": "China's Algorithmic Governance. Skinner's pigeons at national scale. Rewards for good behaviour; re-education for bad."
+    },
+    {
+      "id": "dual_state",
+      "label": "The Dual State",
+      "type": "idea",
+      "episodes": [
+        5
+      ],
+      "desc": "Hans Morgenthau's term: America publicly promotes democracy while secretly running coups. 66 attempted, 26 succeeded."
+    },
+    {
+      "id": "mkultra",
+      "label": "MKUltra",
+      "type": "idea",
+      "episodes": [
+        1
+      ],
+      "desc": "CIA mind control programme. Electroshocks and LSD to wipe memories. Failed completely. Patients left as aliens in their own world."
+    },
+    {
+      "id": "yellow_peril",
+      "label": "Yellow Peril",
+      "type": "idea",
+      "episodes": [
+        5
+      ],
+      "desc": "Hysteria about Chinese revenge despite fewer than 1,000 Chinese in Britain. Guilt over opium mutated into fear. Created Dr Fu Manchu."
+    },
+    {
+      "id": "century_humiliation",
+      "label": "Century of Humiliation",
+      "type": "idea",
+      "episodes": [
+        5
+      ],
+      "desc": "Deng Xiaoping's propaganda narrative: the West has been conspiring to destroy China for 150 years, starting with opium."
+    },
+    {
+      "id": "exceptionalism",
+      "label": "Exceptionalism (US/UK/Russia)",
+      "type": "idea",
+      "episodes": [
+        5,
+        6
+      ],
+      "desc": "Dreamlike myths about national specialness, rooted in fear. American, British, and Russian versions all serve to avoid facing imperial violence."
+    },
+    {
+      "id": "nudge_theory",
+      "label": "Nudge / Priming Theory",
+      "type": "idea",
+      "episodes": [
+        4,
+        6
+      ],
+      "desc": "Idea that unconscious triggers shape behaviour. Kahneman promoted it; then warned of 'a train wreck looming' when experiments failed replication."
+    },
+    {
+      "id": "non_majoritarian",
+      "label": "Non-Majoritarian Institutions",
+      "type": "idea",
+      "episodes": [
+        4
+      ],
+      "desc": "Giandomenico Majone's invention: bureaucracies 'by design not directly accountable to voters.' The quiet dismantling of democracy."
+    },
+    {
+      "id": "englishism",
+      "label": "Englishism",
+      "type": "idea",
+      "episodes": [
+        1
+      ],
+      "desc": "Michael X's term for the hidden ruthlessness behind English politeness — 'an anger and melancholy at the loss of their empire.'"
+    },
+    {
+      "id": "learned_helplessness",
+      "label": "Learned Helplessness",
+      "type": "idea",
+      "episodes": [
+        6
+      ],
+      "desc": "Positive psychology concept. CIA psychologists reversed it — used it to break Abu Zubaydah through waterboarding and freezing."
+    },
+    {
+      "id": "vector_world",
+      "label": "Vector-World",
+      "type": "idea",
+      "episodes": [
+        6
+      ],
+      "desc": "Geoffrey Hinton's name for the reality seen by neural networks — patterns across time and space that humans can never see or understand."
+    },
+    {
+      "id": "time_propinquity",
+      "label": "Time and Propinquity",
+      "type": "idea",
+      "episodes": [
+        1
+      ],
+      "desc": "Jim Garrison's method: don't look for meaning, look for patterns and coincidences. Profoundly shaped conspiracy thinking."
+    },
+    {
+      "id": "paranoid_style",
+      "label": "Paranoid Style in America",
+      "type": "idea",
+      "episodes": [
+        1,
+        5
+      ],
+      "desc": "Hofstadter: American paranoia is built into the country from its founding — settlers fled corruption but brought their suspicious minds."
+    },
+    {
+      "id": "petrodollars",
+      "label": "Petrodollars",
+      "type": "idea",
+      "episodes": [
+        3
+      ],
+      "desc": "After 1973 oil crisis, Western banks turned Arab oil money into international currency free of government control. Created new financial power."
+    },
+    {
+      "id": "ultra_corruption",
+      "label": "Ultra Corruption",
+      "type": "idea",
+      "episodes": [
+        6
+      ],
+      "desc": "Wang Huning's term for corruption so extensive it was hollowing out China's political system. Risked fragmenting into 1920s-era warlordism."
+    },
+    {
+      "id": "shock_therapy",
+      "label": "Shock Therapy",
+      "type": "idea",
+      "episodes": [
+        4
+      ],
+      "desc": "Sudden introduction of free-market capitalism in Russia. Created chaos, oligarch rule, and mass impoverishment. Poisoned Russians against democracy."
+    },
+    {
+      "id": "self_actualisation",
+      "label": "Self-Actualisation (Maslow)",
+      "type": "idea",
+      "episodes": [
+        4
+      ],
+      "desc": "Maslow's idea that individuals should fulfil their highest potential. Influenced Chai Ling at Tiananmen. Became the ideology of consumer capitalism."
+    },
+    {
+      "id": "dream_red_chamber",
+      "label": "Dream of the Red Chamber",
+      "type": "idea",
+      "episodes": [
+        3
+      ],
+      "desc": "China's most famous novel — about how those in power shape reality. Jiang Qing was fascinated by it. Used to justify her control of culture."
+    },
+    {
+      "id": "community_action",
+      "label": "Community Action",
+      "type": "idea",
+      "episodes": [
+        2
+      ],
+      "desc": "White professionals surveying Notting Hill residents. Looked like empowerment but was really management through data collection."
+    },
+    {
+      "id": "notting_hill",
+      "label": "Notting Hill",
+      "type": "place",
+      "episodes": [
+        1,
+        2
+      ],
+      "desc": "Rachman's empire. Michael X's territory. Where revolution became consumerism. Where white radicals danced to black music."
+    },
+    {
+      "id": "baghdad",
+      "label": "Baghdad / Iraq",
+      "type": "place",
+      "episodes": [
+        5
+      ],
+      "desc": "Created by the British from romantic dreams. Destabilised by CIA. Invaded twice. Bell's fantasy became ISIS's nightmare."
+    },
+    {
+      "id": "chongqing",
+      "label": "Chongqing",
+      "type": "place",
+      "episodes": [
+        6
+      ],
+      "desc": "32 million people. Bo Xilai's laboratory. Mass Maoist rallies while his wife allegedly murdered an Englishman at the Lucky Holiday Hotel."
+    },
+    {
+      "id": "brighton_beach",
+      "label": "Brighton Beach, NY",
+      "type": "place",
+      "episodes": [
+        3
+      ],
+      "desc": "Where the Soviets dumped Russian criminals (calling them Jewish emigrés). The Potato Bag Gang: start of the Russian mafia in America."
+    },
+    {
+      "id": "allan_memorial",
+      "label": "Allan Memorial Hospital",
+      "type": "place",
+      "episodes": [
+        1
+      ],
+      "desc": "Montreal. Where Ewen Cameron ran MKUltra experiments. Electroshocks, LSD, erased minds. 'I felt like an alien from another world.'"
+    },
+    {
+      "id": "silicon_valley",
+      "label": "Silicon Valley",
+      "type": "place",
+      "episodes": [
+        6
+      ],
+      "desc": "Idealists who believed individuals could remake the world by bypassing old power. Then met the power of money after the dot-com crash."
+    },
+    {
+      "id": "saudi_arabia",
+      "label": "Saudi Arabia",
+      "type": "place",
+      "episodes": [
+        6
+      ],
+      "desc": "'A fairy-tale land.' No tax. Abu Zubaydah discovered that if you weren't part of the elite, you were nothing. Money created nihilism."
+    },
+    {
+      "id": "sarajevo",
+      "label": "Sarajevo",
+      "type": "place",
+      "episodes": [
+        4
+      ],
+      "desc": "Where Limonov fired a machine gun as Karadzic's guest and discovered nationalism as a force against the 'geopolitics of money.'"
+    },
+    {
+      "id": "tiananmen_place",
+      "label": "Tiananmen Square",
+      "type": "place",
+      "episodes": [
+        3,
+        4
+      ],
+      "desc": "Where Chai Ling called for bloodshed. Where Deng sent tanks. Where an anonymous poem called Jiang Qing insane."
+    },
+    {
+      "id": "peshawar",
+      "label": "Peshawar",
+      "type": "place",
+      "episodes": [
+        6
+      ],
+      "desc": "Afghan border town. Where Abu Zubaydah went to lose himself in jihad. Where shrapnel pierced his brain and shattered his identity."
+    },
+    {
+      "id": "congo",
+      "label": "Congo",
+      "type": "place",
+      "episodes": [
+        5
+      ],
+      "desc": "Centre of slave trade for 200 years. Copper mines crucial to US electronics. Lumumba killed, Mobutu installed. American empire continuing European instability."
+    },
+    {
+      "id": "kenya",
+      "label": "Kenya",
+      "type": "place",
+      "episodes": [
+        1
+      ],
+      "desc": "Last outpost of Empire. Mau Mau camps. British tried to manipulate 'the African mind' through psychological adjustment. Mass torture."
+    },
+    {
+      "id": "hong_kong",
+      "label": "Hong Kong",
+      "type": "place",
+      "episodes": [
+        5
+      ],
+      "desc": "Never democratic under British rule. Handed back to China in pouring rain. Chinese sang Rod Stewart. Percy Cradock agreed with Chinese criticism."
+    },
+    {
+      "id": "appalachia",
+      "label": "Appalachia",
+      "type": "place",
+      "episodes": [
+        3
+      ],
+      "desc": "Harry Caudill represented miners whose jobs disappeared. Predicted the anger would infect all of America. The forgotten heartland."
+    },
+    {
+      "id": "gadfly",
+      "label": "The Gadfly (novel)",
+      "type": "work",
+      "episodes": [
+        1
+      ],
+      "desc": "Ethel Boole's novel about revolutionary sacrifice. Inspired millions in Russia and China without her knowledge."
+    },
+    {
+      "id": "dr_no",
+      "label": "Dr No (film)",
+      "type": "work",
+      "episodes": [
+        5
+      ],
+      "desc": "James Bond film directed by Terence Young — who also directed Saddam Hussein's propaganda film."
+    },
+    {
+      "id": "walden_two",
+      "label": "Walden Two (novel)",
+      "type": "work",
+      "episodes": [
+        6
+      ],
+      "desc": "Skinner's utopia of operant conditioning. Became the blueprint for China's social credit system."
+    },
+    {
+      "id": "gulag",
+      "label": "The Gulag Archipelago",
+      "type": "work",
+      "episodes": [
+        3
+      ],
+      "desc": "Solzhenitsyn's conclusion: stop trying to change the world. 'The safest thing to do in the future was to believe in nothing.'"
+    },
+    {
+      "id": "its_me_eddie",
+      "label": "It's Me, Eddie (novel)",
+      "type": "work",
+      "episodes": [
+        3,
+        4
+      ],
+      "desc": "Limonov's novel about America's hidden reality. Every publisher refused it. When published in Russia, it poisoned a generation against democracy."
+    },
+    {
+      "id": "clansman",
+      "label": "The Clansman (novel)",
+      "type": "work",
+      "episodes": [
+        5
+      ],
+      "desc": "Invented KKK costumes from Walter Scott's fiction. DW Griffith adapted it into Birth of a Nation. The real KKK copied the film."
+    },
+    {
+      "id": "killuminati",
+      "label": "Killuminati (album)",
+      "type": "work",
+      "episodes": [
+        6
+      ],
+      "desc": "Tupac's posthumous attack on Illuminati conspiracy theories: 'Suspicion is just another form of control.'"
+    },
+    {
+      "id": "bloodshed_wolf_mountain",
+      "label": "Bloodshed on Wolf Mountain",
+      "type": "work",
+      "episodes": [
+        1
+      ],
+      "desc": "1934 Chinese film. Li Lili upstaged Jiang Qing. Decades later, Jiang Qing took her revenge through the Cultural Revolution."
+    },
+    {
+      "id": "immortal_hour",
+      "label": "The Immortal Hour (opera)",
+      "type": "work",
+      "episodes": [
+        5
+      ],
+      "desc": "Rutland Boughton's national sensation. Set in a dark wood with ancient forces — 'the lordly ones.' Epitome of English folk myth."
+    },
+    {
+      "id": "voynich_ms",
+      "label": "Voynich Manuscript",
+      "type": "work",
+      "episodes": [
+        1
+      ],
+      "desc": "Mysterious book in an undeciphered language. Inherited by Ethel Boole from her husband. No one has ever cracked it."
+    },
+    {
+      "id": "idle_warriors",
+      "label": "The Idle Warriors (novel)",
+      "type": "work",
+      "episodes": [
+        1
+      ],
+      "desc": "Thornley's novel with Oswald as protagonist. Written before the assassination. Led Garrison to accuse him of conspiracy."
+    },
+    {
+      "id": "family_of_man",
+      "label": "The Family of Man (exhibition)",
+      "type": "work",
+      "episodes": [
+        6
+      ],
+      "desc": "1950s exhibition of individuals worldwide. Designed by Herbert Bayer as 'a new kind of propaganda' for the individual self."
+    },
+    {
+      "id": "fu_manchu",
+      "label": "Dr Fu Manchu",
+      "type": "work",
+      "episodes": [
+        5
+      ],
+      "desc": "'A yellow Satan.' Created by Sax Rohmer from Yellow Peril hysteria. Projection of British guilt over opium onto a Chinese villain."
+    },
+    {
+      "id": "my_bones_flute",
+      "label": "My Bones and My Flute",
+      "type": "work",
+      "episodes": [
+        2
+      ],
+      "desc": "Mittelholzer's novel about colonial ghosts haunting the living. He became a colonial ghost himself — burned to death."
+    },
+    {
+      "id": "night_cumberlands",
+      "label": "Night Comes to the Cumberlands",
+      "type": "work",
+      "episodes": [
+        3
+      ],
+      "desc": "Harry Caudill's book about Appalachian miners. Predicted their anger would 'infect all of America.'"
+    },
+    {
+      "id": "lee_harvey_oswald",
+      "label": "Lee Harvey Oswald",
+      "type": "person",
+      "episodes": [
+        1,
+        3
+      ],
+      "desc": "Marine who befriended Kerry Thornley, defected to the USSR, then returned to assassinate JFK. His story became the template for modern conspiracy theories."
+    },
+    {
+      "id": "donald_trump",
+      "label": "Donald Trump",
+      "type": "person",
+      "episodes": [
+        1,
+        2,
+        5,
+        6
+      ],
+      "desc": "Used the conspiracy theories and distrust of institutions that had been building for decades to ride to power. His supporters created QAnon."
+    },
+    {
+      "id": "john_f_kennedy",
+      "label": "John F. Kennedy",
+      "type": "person",
+      "episodes": [
+        1,
+        3
+      ],
+      "desc": "His assassination in 1963 shattered American certainty and launched modern conspiracy culture. Jim Garrison investigated his death."
+    },
+    {
+      "id": "alexander_solzhenitsyn",
+      "label": "Alexander Solzhenitsyn",
+      "type": "person",
+      "episodes": [
+        3
+      ],
+      "desc": "Soviet dissident who secretly wrote The Gulag Archipelago, exposing the horror of the Soviet prison system. His work helped delegitimise the USSR."
+    },
+    {
+      "id": "bobby_seale",
+      "label": "Bobby Seale",
+      "type": "person",
+      "episodes": [
+        2
+      ],
+      "desc": "Co-founder of the Black Panther Party. Afeni Shakur heard him speak in Harlem and joined the movement."
+    },
+    {
+      "id": "hanns_martin_schleyer",
+      "label": "Hanns-Martin Schleyer",
+      "type": "person",
+      "episodes": [
+        2
+      ],
+      "desc": "Leading German industrialist kidnapped and killed by the RAF. He had also been a leading Nazi — embodying how post-war Germany never fully reckoned with its past."
+    },
+    {
+      "id": "yelena_shchapova",
+      "label": "Yelena Shchapova",
+      "type": "person",
+      "episodes": [
+        3
+      ],
+      "desc": "Eduard Limonov's great love. Their glamorous life in Moscow's underground ended when they emigrated. She left him in New York, devastating him."
+    },
+    {
+      "id": "malcolm_x",
+      "label": "Malcolm X",
+      "type": "person",
+      "episodes": [
+        2
+      ],
+      "desc": "Civil rights leader who influenced Michael X (who took his name) and the Black Panthers. Advocated self-defence over non-violence."
+    },
+    {
+      "id": "osama_bin_laden",
+      "label": "Osama bin Laden",
+      "type": "person",
+      "episodes": [
+        6
+      ],
+      "desc": "Ran a jihad camp near Abu Zubaydah's. Asked Zubaydah to form an alliance, but Zubaydah refused because he didn't trust bin Laden's ambitions."
+    },
+    {
+      "id": "steve_yeates",
+      "label": "Steve Yeates",
+      "type": "person",
+      "episodes": [
+        2
+      ],
+      "desc": "Michael X's enforcer in Trinidad. Told that Gale Benson was a CIA agent, he murdered her and buried her in the garden."
+    },
+    {
+      "id": "keswick_family",
+      "label": "Keswick Family",
+      "type": "person",
+      "episodes": [
+        1
+      ],
+      "desc": "Ran Jardine Matheson, key to the British opium trade with China. William Keswick was caught using insider information in the City of London."
+    },
+    {
+      "id": "chris_de_burgh",
+      "label": "Chris de Burgh",
+      "type": "person",
+      "episodes": [
+        6
+      ],
+      "desc": "Irish singer whose music Abu Zubaydah loved, especially 'Lady in Red.' A surreal detail in the story of a man who became the War on Terror's most tortured prisoner."
+    },
+    {
+      "id": "ayn_rand",
+      "label": "Ayn Rand",
+      "type": "person",
+      "episodes": [
+        1
+      ],
+      "desc": "Libertarian novelist whose ideas of radical individualism influenced Kerry Thornley and shaped American anti-government sentiment."
+    },
+    {
+      "id": "george_w_bush",
+      "label": "George W. Bush",
+      "type": "person",
+      "episodes": [
+        5,
+        6
+      ],
+      "desc": "Led the invasion of Iraq in 2003 to bring stability to the Middle East, which instead created chaos and ultimately ISIS."
+    },
+    {
+      "id": "margaret_thatcher",
+      "label": "Margaret Thatcher",
+      "type": "person",
+      "episodes": [
+        5
+      ],
+      "desc": "Supported British intelligence throughout the Cold War. Was shocked when they completely failed to predict the collapse of the Soviet Union."
+    },
+    {
+      "id": "gale_benson",
+      "label": "Gale Benson",
+      "type": "person",
+      "episodes": [
+        2
+      ],
+      "desc": "English socialite who followed her lover Hakim Jamal to Trinidad, where Michael X ordered her murder, claiming she was a CIA spy."
+    },
+    {
+      "id": "hakim_jamal",
+      "label": "Hakim Jamal",
+      "type": "person",
+      "episodes": [
+        2
+      ],
+      "desc": "Black Power activist who had an affair with Jean Seberg. Took Gale Benson to Trinidad where she was murdered by Michael X's men."
+    },
+    {
+      "id": "jean_seberg",
+      "label": "Jean Seberg",
+      "type": "person",
+      "episodes": [
+        2
+      ],
+      "desc": "American actress targeted by FBI COINTELPRO for supporting the Black Panthers. The FBI destroyed her reputation and she eventually killed herself."
+    },
+    {
+      "id": "barack_obama",
+      "label": "Barack Obama",
+      "type": "person",
+      "episodes": [
+        6
+      ],
+      "desc": "Russian conspiracy theories cast him as part of an Illuminati plot to undermine Putin. His presidency deepened American political polarisation."
+    },
+    {
+      "id": "oxycontin",
+      "label": "OxyContin Epidemic",
+      "type": "event",
+      "episodes": [
+        3,
+        5
+      ],
+      "desc": "Synthetic opium marketed by Arthur Sackler's company as non-addictive — just as he'd marketed Valium. Devastated Appalachia, completing the opium circle from China to America."
+    },
+    {
+      "id": "valium_drug",
+      "label": "Valium",
+      "type": "event",
+      "episodes": [
+        3,
+        5
+      ],
+      "desc": "Marketed by Arthur Sackler as safe treatment for anxiety. Became most prescribed drug in America. Betty Ford's addiction exposed its dangers. Template for OxyContin."
+    },
+    {
+      "id": "black_panther_party",
+      "label": "Black Panther Party",
+      "type": "event",
+      "episodes": [
+        2,
+        6
+      ],
+      "desc": "Revolutionary organisation that believed armed self-defence was the only way to stop racism. FBI infiltrated and destroyed them through COINTELPRO."
+    },
+    {
+      "id": "gang_of_four",
+      "label": "Gang of Four",
+      "type": "event",
+      "episodes": [
+        2,
+        3,
+        4,
+        6
+      ],
+      "desc": "Jiang Qing and three allies who tried to seize power when Mao died. Arrested in 1976, ending the Cultural Revolution and Jiang Qing's dream."
+    },
+    {
+      "id": "vietnam_war",
+      "label": "Vietnam War",
+      "type": "event",
+      "episodes": [
+        3,
+        4,
+        5
+      ],
+      "desc": "Shattered American confidence and fuelled the counterculture. Nixon's secret bombing and the chaos at home drove the turn to individualism and conspiracy thinking."
+    },
+    {
+      "id": "cold_war",
+      "label": "Cold War",
+      "type": "event",
+      "episodes": [
+        1,
+        2,
+        5
+      ],
+      "desc": "The ideological struggle that framed individualism as the West's answer to collectivism. Produced MKUltra, the space race, and the surveillance state."
+    },
+    {
+      "id": "war_on_terror",
+      "label": "War on Terror",
+      "type": "event",
+      "episodes": [
+        6
+      ],
+      "desc": "Used Abu Zubaydah's tortured confessions to justify global surveillance and military intervention. The torture techniques came from MKUltra's Ewen Cameron."
+    },
+    {
+      "id": "ku_klux_klan",
+      "label": "Ku Klux Klan",
+      "type": "event",
+      "episodes": [
+        5
+      ],
+      "desc": "Revived in the 1920s using imagery from Walter Scott novels and D.W. Griffith's Birth of a Nation. Its costumes came from romantic fiction about medieval knights."
+    },
+    {
+      "id": "red_army_faction",
+      "label": "Red Army Faction (RAF)",
+      "type": "event",
+      "episodes": [
+        2
+      ],
+      "desc": "West German urban guerrilla group founded by Andreas Baader and others. Killed Schleyer, hijacked planes, and ultimately discredited left-wing revolution."
+    },
+    {
+      "id": "cambridge_analytica",
+      "label": "Cambridge Analytica",
+      "type": "event",
+      "episodes": [
+        6
+      ],
+      "desc": "Claimed to alter behaviour through Facebook data and priming. But the Facebook emotion experiments suggested priming effects were actually tiny."
+    },
+    {
+      "id": "facebook_experiments",
+      "label": "Facebook Emotion Experiments",
+      "type": "event",
+      "episodes": [
+        6
+      ],
+      "desc": "In 2014, Facebook psychologists showed they could alter emotions through newsfeeds. But the effect was only 0.001% — raising doubts about all nudge/priming theory."
+    },
+    {
+      "id": "jfk_assassination",
+      "label": "JFK Assassination",
+      "type": "event",
+      "episodes": [
+        1,
+        3
+      ],
+      "desc": "The event that shattered American certainty. Jim Garrison's investigation, Oswald's connections to Thornley, and the Warren Commission spawned modern conspiracy culture."
+    },
+    {
+      "id": "cointelpro",
+      "label": "COINTELPRO",
+      "type": "event",
+      "episodes": [
+        2
+      ],
+      "desc": "FBI programme to infiltrate and destroy the Black Panthers and other radical groups. Agents provocateurs, forged letters, and psychological warfare."
+    },
+    {
+      "id": "illuminati",
+      "label": "The Illuminati",
+      "type": "idea",
+      "episodes": [
+        1,
+        3,
+        6
+      ],
+      "desc": "Originally a real 18th-century Bavarian secret society. Greg Hill and Kerry Thornley spread fake Illuminati conspiracy letters as a joke — which people eventually believed."
+    },
+    {
+      "id": "vory_v_zakone",
+      "label": "Vory v Zakone",
+      "type": "idea",
+      "episodes": [
+        3
+      ],
+      "desc": "'Thieves in law' — Russian criminal brotherhood with its own codes, born in the prisons. When the Soviet Union collapsed, they merged with the new oligarchs and then with Putin's state."
+    },
+    {
+      "id": "qanon",
+      "label": "QAnon",
+      "type": "idea",
+      "episodes": [
+        6
+      ],
+      "desc": "Conspiracy theory explaining why Trump hadn't fulfilled his promises: a secret cabal was stopping him. Direct descendant of the fake Illuminati letters from Operation Mindfuck."
+    },
+    {
+      "id": "neoliberalism",
+      "label": "Neoliberalism",
+      "type": "idea",
+      "episodes": [
+        4,
+        5,
+        6
+      ],
+      "desc": "The idea that markets should replace democratic politics. Giandomenico Majone's 'non-majoritarian institutions' gave it intellectual cover. Led to technocratic governance."
+    },
+    {
+      "id": "lsd_drug",
+      "label": "LSD",
+      "type": "idea",
+      "episodes": [
+        1
+      ],
+      "desc": "Used by Ewen Cameron in MKUltra experiments at Allan Memorial Hospital. Massive doses combined with electroshock to try to reprogram human minds."
+    },
+    {
+      "id": "afghanistan_place",
+      "label": "Afghanistan",
+      "type": "place",
+      "episodes": [
+        4,
+        6
+      ],
+      "desc": "Where jihadists inspired by Bernard Kouchner's humanitarian interventionism came to fight. Abu Zubaydah ran a logistics camp for foreign fighters near Peshawar."
+    },
+    {
+      "id": "trinidad_place",
+      "label": "Trinidad",
+      "type": "place",
+      "episodes": [
+        1,
+        2
+      ],
+      "desc": "Michael X's homeland. He returned there from London, established a commune, and descended into violence — ordering the murder of Gale Benson."
+    },
+    {
+      "id": "abu_ghraib",
+      "label": "Abu Ghraib",
+      "type": "place",
+      "episodes": [
+        6
+      ],
+      "desc": "Iraqi prison where American torture techniques — derived from MKUltra via Abu Zubaydah's interrogation — were used on detainees."
+    },
+    {
+      "id": "guantanamo",
+      "label": "Guantanamo Bay",
+      "type": "place",
+      "episodes": [
+        6
+      ],
+      "desc": "Where Abu Zubaydah was held and tortured. He remains there decades later, never charged, because his trial would expose what was done to him."
+    }
+  ],
+  "links": [
+    {
+      "source": "george_boole",
+      "target": "boolean_logic",
+      "label": "invented"
+    },
+    {
+      "source": "george_boole",
+      "target": "ethel_boole",
+      "label": "father of"
+    },
+    {
+      "source": "ethel_boole",
+      "target": "gadfly",
+      "label": "wrote"
+    },
+    {
+      "source": "gadfly",
+      "target": "cultural_revolution",
+      "label": "inspired fighters"
+    },
+    {
+      "source": "george_boole",
+      "target": "geoffrey_hinton",
+      "label": "great-great-grandfather"
+    },
+    {
+      "source": "geoffrey_hinton",
+      "target": "vector_world",
+      "label": "created"
+    },
+    {
+      "source": "geoffrey_hinton",
+      "target": "silicon_valley",
+      "label": "worked at Google"
+    },
+    {
+      "source": "boolean_logic",
+      "target": "social_credit",
+      "label": "logic underpins"
+    },
+    {
+      "source": "ethel_boole",
+      "target": "voynich_ms",
+      "label": "inherited"
+    },
+    {
+      "source": "ethel_boole",
+      "target": "plisetskaya",
+      "label": "Bolshoi visited her"
+    },
+    {
+      "source": "opium_wars",
+      "target": "century_humiliation",
+      "label": "began"
+    },
+    {
+      "source": "opium_wars",
+      "target": "yellow_peril",
+      "label": "guilt became fear"
+    },
+    {
+      "source": "yellow_peril",
+      "target": "fu_manchu",
+      "label": "created"
+    },
+    {
+      "source": "deng_xiaoping",
+      "target": "century_humiliation",
+      "label": "weaponised"
+    },
+    {
+      "source": "deng_xiaoping",
+      "target": "tiananmen",
+      "label": "ordered tanks"
+    },
+    {
+      "source": "arthur_sackler",
+      "target": "betty_ford",
+      "label": "promoted Valium"
+    },
+    {
+      "source": "betty_ford",
+      "target": "nixon",
+      "label": "First Lady after"
+    },
+    {
+      "source": "arthur_sackler",
+      "target": "individualism",
+      "label": "medicated anxiety"
+    },
+    {
+      "source": "kerry_thornley",
+      "target": "op_mindfuck",
+      "label": "started"
+    },
+    {
+      "source": "greg_hill",
+      "target": "op_mindfuck",
+      "label": "co-created"
+    },
+    {
+      "source": "kerry_thornley",
+      "target": "jim_garrison",
+      "label": "falsely accused by"
+    },
+    {
+      "source": "jim_garrison",
+      "target": "time_propinquity",
+      "label": "created method"
+    },
+    {
+      "source": "op_mindfuck",
+      "target": "tupac",
+      "label": "Illuminati → Killuminati"
+    },
+    {
+      "source": "tupac",
+      "target": "killuminati",
+      "label": "recorded"
+    },
+    {
+      "source": "tupac",
+      "target": "afeni_shakur",
+      "label": "son of"
+    },
+    {
+      "source": "afeni_shakur",
+      "target": "tupac",
+      "label": "Black Panther mother"
+    },
+    {
+      "source": "kerry_thornley",
+      "target": "idle_warriors",
+      "label": "wrote"
+    },
+    {
+      "source": "boolean_logic",
+      "target": "mkultra",
+      "label": "logic of control"
+    },
+    {
+      "source": "mkultra",
+      "target": "ewen_cameron",
+      "label": "run by"
+    },
+    {
+      "source": "ewen_cameron",
+      "target": "allan_memorial",
+      "label": "experimented at"
+    },
+    {
+      "source": "horst_herold",
+      "target": "silicon_valley",
+      "label": "prefigured Google"
+    },
+    {
+      "source": "911",
+      "target": "silicon_valley",
+      "label": "Patriot Act enabled"
+    },
+    {
+      "source": "social_credit",
+      "target": "bf_skinner",
+      "label": "realised his vision"
+    },
+    {
+      "source": "bf_skinner",
+      "target": "walden_two",
+      "label": "wrote"
+    },
+    {
+      "source": "horst_herold",
+      "target": "horst_mahler",
+      "label": "caught"
+    },
+    {
+      "source": "horst_mahler",
+      "target": "andreas_baader",
+      "label": "fellow revolutionary"
+    },
+    {
+      "source": "michael_x",
+      "target": "peter_rachman",
+      "label": "worked for"
+    },
+    {
+      "source": "michael_x",
+      "target": "englishism",
+      "label": "coined"
+    },
+    {
+      "source": "michael_x",
+      "target": "notting_hill",
+      "label": "territory"
+    },
+    {
+      "source": "peter_rachman",
+      "target": "notting_hill",
+      "label": "empire in"
+    },
+    {
+      "source": "jiang_qing",
+      "target": "li_lili",
+      "label": "took revenge on"
+    },
+    {
+      "source": "jiang_qing",
+      "target": "mao_zedong",
+      "label": "wife of"
+    },
+    {
+      "source": "jiang_qing",
+      "target": "cultural_revolution",
+      "label": "drove"
+    },
+    {
+      "source": "jiang_qing",
+      "target": "bloodshed_wolf_mountain",
+      "label": "starred in"
+    },
+    {
+      "source": "li_lili",
+      "target": "bloodshed_wolf_mountain",
+      "label": "starred in"
+    },
+    {
+      "source": "mao_zedong",
+      "target": "cultural_revolution",
+      "label": "launched"
+    },
+    {
+      "source": "mao_zedong",
+      "target": "nixon",
+      "label": "met in Beijing"
+    },
+    {
+      "source": "cecil_sharp",
+      "target": "immortal_hour",
+      "label": "inspired"
+    },
+    {
+      "source": "cecil_sharp",
+      "target": "gertrude_bell",
+      "label": "same romantic dream"
+    },
+    {
+      "source": "gertrude_bell",
+      "target": "baghdad",
+      "label": "created Iraq"
+    },
+    {
+      "source": "baghdad",
+      "target": "saddam",
+      "label": "rose to power in"
+    },
+    {
+      "source": "saddam",
+      "target": "terence_young",
+      "label": "hired to direct"
+    },
+    {
+      "source": "terence_young",
+      "target": "dr_no",
+      "label": "also directed"
+    },
+    {
+      "source": "iraq_invasion",
+      "target": "tony_blair",
+      "label": "justified by"
+    },
+    {
+      "source": "iraq_invasion",
+      "target": "baghdad",
+      "label": "invaded"
+    },
+    {
+      "source": "awakening",
+      "target": "baghdad",
+      "label": "tribal militias"
+    },
+    {
+      "source": "miles_copeland",
+      "target": "dual_state",
+      "label": "embodied"
+    },
+    {
+      "source": "dual_state",
+      "target": "baghdad",
+      "label": "applied in"
+    },
+    {
+      "source": "tony_blair",
+      "target": "dom_cummings",
+      "label": "Cummings opposed"
+    },
+    {
+      "source": "daniel_kahneman",
+      "target": "nudge_theory",
+      "label": "developed"
+    },
+    {
+      "source": "nudge_theory",
+      "target": "social_credit",
+      "label": "evolved into"
+    },
+    {
+      "source": "xi_jinping",
+      "target": "social_credit",
+      "label": "implemented"
+    },
+    {
+      "source": "bo_xilai",
+      "target": "xi_jinping",
+      "label": "rival of"
+    },
+    {
+      "source": "bo_xilai",
+      "target": "neil_heywood",
+      "label": "friend then victim"
+    },
+    {
+      "source": "neil_heywood",
+      "target": "chongqing",
+      "label": "murdered in"
+    },
+    {
+      "source": "bo_xilai",
+      "target": "chongqing",
+      "label": "ruled"
+    },
+    {
+      "source": "nixon",
+      "target": "individualism",
+      "label": "silent majority"
+    },
+    {
+      "source": "individualism",
+      "target": "chaos_theory",
+      "label": "undermined by"
+    },
+    {
+      "source": "chaos_theory",
+      "target": "complexity_theory",
+      "label": "evolved into"
+    },
+    {
+      "source": "complexity_theory",
+      "target": "gell_mann",
+      "label": "promoted by"
+    },
+    {
+      "source": "gell_mann",
+      "target": "dom_cummings",
+      "label": "inspired"
+    },
+    {
+      "source": "dom_cummings",
+      "target": "brexit",
+      "label": "architected"
+    },
+    {
+      "source": "individualism",
+      "target": "julia_grant",
+      "label": "'free but alone'"
+    },
+    {
+      "source": "julia_grant",
+      "target": "individualism",
+      "label": "discovered limits of"
+    },
+    {
+      "source": "gazzaniga",
+      "target": "individualism",
+      "label": "undermined the self"
+    },
+    {
+      "source": "putin",
+      "target": "kursk",
+      "label": "discovered populism"
+    },
+    {
+      "source": "putin",
+      "target": "politkovskaya",
+      "label": "critic murdered"
+    },
+    {
+      "source": "limonov",
+      "target": "putin",
+      "label": "opponent then inspiration"
+    },
+    {
+      "source": "limonov",
+      "target": "sarajevo",
+      "label": "fired machine gun"
+    },
+    {
+      "source": "limonov",
+      "target": "its_me_eddie",
+      "label": "wrote"
+    },
+    {
+      "source": "limonov",
+      "target": "brighton_beach",
+      "label": "lived near"
+    },
+    {
+      "source": "abu_zubaydah",
+      "target": "saudi_arabia",
+      "label": "born in"
+    },
+    {
+      "source": "abu_zubaydah",
+      "target": "peshawar",
+      "label": "went to jihad"
+    },
+    {
+      "source": "abu_zubaydah",
+      "target": "learned_helplessness",
+      "label": "subjected to"
+    },
+    {
+      "source": "abu_zubaydah",
+      "target": "911",
+      "label": "falsely linked to"
+    },
+    {
+      "source": "chai_ling",
+      "target": "tiananmen",
+      "label": "led protests"
+    },
+    {
+      "source": "chai_ling",
+      "target": "individualism",
+      "label": "self-actualiser"
+    },
+    {
+      "source": "bernard_kouchner",
+      "target": "individualism",
+      "label": "challenged liberals"
+    },
+    {
+      "source": "deng_xiaoping",
+      "target": "asian_crisis",
+      "label": "China escaped"
+    },
+    {
+      "source": "asian_crisis",
+      "target": "2008_crash",
+      "label": "prefigured"
+    },
+    {
+      "source": "2008_crash",
+      "target": "brexit",
+      "label": "anger led to"
+    },
+    {
+      "source": "hong_kong_handover",
+      "target": "deng_xiaoping",
+      "label": "triumph for"
+    },
+    {
+      "source": "family_of_man",
+      "target": "individualism",
+      "label": "promoted"
+    },
+    {
+      "source": "family_of_man",
+      "target": "silicon_valley",
+      "label": "same dream"
+    },
+    {
+      "source": "exceptionalism",
+      "target": "birth_of_nation",
+      "label": "American version"
+    },
+    {
+      "source": "exceptionalism",
+      "target": "cecil_sharp",
+      "label": "English version"
+    },
+    {
+      "source": "exceptionalism",
+      "target": "putin",
+      "label": "Russian version"
+    },
+    {
+      "source": "birth_of_nation",
+      "target": "clansman",
+      "label": "based on"
+    },
+    {
+      "source": "clansman",
+      "target": "tulsa_massacre",
+      "label": "inspired Klan"
+    },
+    {
+      "source": "tulsa_massacre",
+      "target": "la_riots",
+      "label": "echoed by"
+    },
+    {
+      "source": "bill_clinton",
+      "target": "non_majoritarian",
+      "label": "enabled"
+    },
+    {
+      "source": "non_majoritarian",
+      "target": "tony_blair",
+      "label": "spread to UK"
+    },
+    {
+      "source": "von_neumann",
+      "target": "chaos_theory",
+      "label": "models led to"
+    },
+    {
+      "source": "dotcom",
+      "target": "silicon_valley",
+      "label": "crashed"
+    },
+    {
+      "source": "silicon_valley",
+      "target": "vector_world",
+      "label": "developed AI"
+    },
+    {
+      "source": "gulag",
+      "target": "individualism",
+      "label": "'believe in nothing'"
+    },
+    {
+      "source": "limonov",
+      "target": "gulag",
+      "label": "scorned Solzhenitsyn"
+    },
+    {
+      "source": "horst_mahler",
+      "target": "entebbe",
+      "label": "led to"
+    },
+    {
+      "source": "entebbe",
+      "target": "cultural_revolution",
+      "label": "revolution self-destructs"
+    },
+    {
+      "source": "afeni_shakur",
+      "target": "panther_21",
+      "label": "defended herself"
+    },
+    {
+      "source": "panther_21",
+      "target": "tupac",
+      "label": "mother acquitted"
+    },
+    {
+      "source": "lumumba",
+      "target": "congo",
+      "label": "PM of"
+    },
+    {
+      "source": "congo_coup",
+      "target": "lumumba",
+      "label": "killed"
+    },
+    {
+      "source": "congo_coup",
+      "target": "mobutu",
+      "label": "installed"
+    },
+    {
+      "source": "dual_state",
+      "target": "congo_coup",
+      "label": "applied in"
+    },
+    {
+      "source": "morgenthau",
+      "target": "dual_state",
+      "label": "named"
+    },
+    {
+      "source": "miles_copeland",
+      "target": "dual_state",
+      "label": "admitted"
+    },
+    {
+      "source": "blunt",
+      "target": "exceptionalism",
+      "label": "spy protected by establishment"
+    },
+    {
+      "source": "le_carre",
+      "target": "blunt",
+      "label": "knew the world of"
+    },
+    {
+      "source": "le_carre",
+      "target": "exceptionalism",
+      "label": "exposed Empire nostalgia"
+    },
+    {
+      "source": "percy_cradock",
+      "target": "hong_kong_handover",
+      "label": "agreed with Chinese"
+    },
+    {
+      "source": "percy_cradock",
+      "target": "exceptionalism",
+      "label": "last believer"
+    },
+    {
+      "source": "birmingham_six",
+      "target": "exceptionalism",
+      "label": "establishment must never be wrong"
+    },
+    {
+      "source": "mau_mau",
+      "target": "kenya",
+      "label": "fought in"
+    },
+    {
+      "source": "mau_mau",
+      "target": "mkultra",
+      "label": "parallels"
+    },
+    {
+      "source": "mau_mau",
+      "target": "exceptionalism",
+      "label": "imperial violence"
+    },
+    {
+      "source": "robin_douglas_home",
+      "target": "sandra_paul",
+      "label": "married"
+    },
+    {
+      "source": "robin_douglas_home",
+      "target": "individualism",
+      "label": "patriarchal control"
+    },
+    {
+      "source": "sandra_paul",
+      "target": "individualism",
+      "label": "'ruthless to be free'"
+    },
+    {
+      "source": "king_faisal",
+      "target": "oil_crisis",
+      "label": "raised prices 4x"
+    },
+    {
+      "source": "oil_crisis",
+      "target": "petrodollars",
+      "label": "created"
+    },
+    {
+      "source": "petrodollars",
+      "target": "2008_crash",
+      "label": "unregulated money"
+    },
+    {
+      "source": "oil_crisis",
+      "target": "nixon",
+      "label": "during presidency"
+    },
+    {
+      "source": "jiang_zemin",
+      "target": "deng_xiaoping",
+      "label": "successor"
+    },
+    {
+      "source": "jiang_zemin",
+      "target": "asian_crisis",
+      "label": "responded to"
+    },
+    {
+      "source": "jiang_zemin",
+      "target": "iraq_invasion",
+      "label": "funded America's bubble"
+    },
+    {
+      "source": "wang_huning",
+      "target": "ultra_corruption",
+      "label": "coined"
+    },
+    {
+      "source": "ultra_corruption",
+      "target": "bo_xilai",
+      "label": "exposed by"
+    },
+    {
+      "source": "gu_kailai",
+      "target": "bo_xilai",
+      "label": "wife of"
+    },
+    {
+      "source": "gu_kailai",
+      "target": "neil_heywood",
+      "label": "murdered"
+    },
+    {
+      "source": "navalny",
+      "target": "putin",
+      "label": "opponent"
+    },
+    {
+      "source": "navalny",
+      "target": "politkovskaya",
+      "label": "continued her fight"
+    },
+    {
+      "source": "hofstadter",
+      "target": "paranoid_style",
+      "label": "identified"
+    },
+    {
+      "source": "paranoid_style",
+      "target": "op_mindfuck",
+      "label": "exploited by"
+    },
+    {
+      "source": "paranoid_style",
+      "target": "time_propinquity",
+      "label": "shaped"
+    },
+    {
+      "source": "herbert_bayer",
+      "target": "family_of_man",
+      "label": "designed"
+    },
+    {
+      "source": "woodrow_wilson",
+      "target": "exceptionalism",
+      "label": "American crusade"
+    },
+    {
+      "source": "woodrow_wilson",
+      "target": "tulsa_massacre",
+      "label": "dream collapsed into"
+    },
+    {
+      "source": "rodney_king",
+      "target": "la_riots",
+      "label": "triggered"
+    },
+    {
+      "source": "la_riots",
+      "target": "tupac",
+      "label": "shaped"
+    },
+    {
+      "source": "harry_caudill",
+      "target": "appalachia",
+      "label": "represented"
+    },
+    {
+      "source": "appalachia",
+      "target": "arthur_sackler",
+      "label": "OxyContin flooded"
+    },
+    {
+      "source": "david_graeber",
+      "target": "individualism",
+      "label": "proposed alternative"
+    },
+    {
+      "source": "hong_kong",
+      "target": "hong_kong_handover",
+      "label": "site of"
+    },
+    {
+      "source": "hong_kong",
+      "target": "deng_xiaoping",
+      "label": "returned to China"
+    },
+    {
+      "source": "vladimir_komarov",
+      "target": "soyuz_1",
+      "label": "killed in"
+    },
+    {
+      "source": "yuri_gagarin",
+      "target": "soyuz_1",
+      "label": "tried to stop launch"
+    },
+    {
+      "source": "soyuz_1",
+      "target": "individualism",
+      "label": "system vs individual"
+    },
+    {
+      "source": "lin_biao",
+      "target": "mao_zedong",
+      "label": "tricked by"
+    },
+    {
+      "source": "lin_biao",
+      "target": "cultural_revolution",
+      "label": "during"
+    },
+    {
+      "source": "wei_jingsheng",
+      "target": "democracy_wall",
+      "label": "posted on"
+    },
+    {
+      "source": "deng_xiaoping",
+      "target": "democracy_wall",
+      "label": "allowed then crushed"
+    },
+    {
+      "source": "democracy_wall",
+      "target": "tiananmen",
+      "label": "precursor to"
+    },
+    {
+      "source": "stokely_carmichael",
+      "target": "afeni_shakur",
+      "label": "inspired"
+    },
+    {
+      "source": "stokely_carmichael",
+      "target": "michael_x",
+      "label": "influenced"
+    },
+    {
+      "source": "bob_geldof",
+      "target": "live_aid",
+      "label": "organised"
+    },
+    {
+      "source": "colonel_mengistu",
+      "target": "live_aid",
+      "label": "weaponised food aid"
+    },
+    {
+      "source": "live_aid",
+      "target": "bernard_kouchner",
+      "label": "MSF challenged"
+    },
+    {
+      "source": "bernard_kouchner",
+      "target": "kosovo",
+      "label": "became ruler of"
+    },
+    {
+      "source": "tony_blair",
+      "target": "kosovo",
+      "label": "led intervention"
+    },
+    {
+      "source": "kosovo",
+      "target": "iraq_invasion",
+      "label": "emboldened"
+    },
+    {
+      "source": "richard_holbrooke",
+      "target": "kosovo",
+      "label": "posed the dilemma"
+    },
+    {
+      "source": "algerian_election",
+      "target": "non_majoritarian",
+      "label": "justified bypassing democracy"
+    },
+    {
+      "source": "fareed_zakaria",
+      "target": "algerian_election",
+      "label": "posed the question"
+    },
+    {
+      "source": "peter_mair",
+      "target": "non_majoritarian",
+      "label": "critiqued"
+    },
+    {
+      "source": "giandomenico_majone",
+      "target": "non_majoritarian",
+      "label": "designed"
+    },
+    {
+      "source": "non_majoritarian",
+      "target": "brexit",
+      "label": "anger at"
+    },
+    {
+      "source": "peter_mair",
+      "target": "bill_clinton",
+      "label": "identified the shift"
+    },
+    {
+      "source": "tony_martin",
+      "target": "brexit",
+      "label": "linked anger to"
+    },
+    {
+      "source": "tony_martin",
+      "target": "exceptionalism",
+      "label": "post-imperial rage"
+    },
+    {
+      "source": "edward_lorenz",
+      "target": "chaos_theory",
+      "label": "discovered"
+    },
+    {
+      "source": "camp_century",
+      "target": "chaos_theory",
+      "label": "ice cores led to"
+    },
+    {
+      "source": "camp_century",
+      "target": "von_neumann",
+      "label": "climate models"
+    },
+    {
+      "source": "boris_yeltsin",
+      "target": "shock_therapy",
+      "label": "imposed"
+    },
+    {
+      "source": "shock_therapy",
+      "target": "limonov",
+      "label": "provoked"
+    },
+    {
+      "source": "yegor_letov",
+      "target": "limonov",
+      "label": "joined National Bolsheviks"
+    },
+    {
+      "source": "boris_yeltsin",
+      "target": "putin",
+      "label": "selected"
+    },
+    {
+      "source": "edgar_mittelholzer",
+      "target": "my_bones_flute",
+      "label": "wrote"
+    },
+    {
+      "source": "edgar_mittelholzer",
+      "target": "notting_hill",
+      "label": "colonial ghost in"
+    },
+    {
+      "source": "enoch_powell",
+      "target": "michael_x",
+      "label": "charged vs uncharged"
+    },
+    {
+      "source": "enoch_powell",
+      "target": "englishism",
+      "label": "expressed"
+    },
+    {
+      "source": "joan_baez",
+      "target": "bernard_kouchner",
+      "label": "supported"
+    },
+    {
+      "source": "jiang_qing",
+      "target": "dream_red_chamber",
+      "label": "fascinated by"
+    },
+    {
+      "source": "dream_red_chamber",
+      "target": "cultural_revolution",
+      "label": "power shaping reality"
+    },
+    {
+      "source": "community_action",
+      "target": "notting_hill",
+      "label": "surveyed"
+    },
+    {
+      "source": "community_action",
+      "target": "social_credit",
+      "label": "data-driven management"
+    },
+    {
+      "source": "self_actualisation",
+      "target": "chai_ling",
+      "label": "influenced"
+    },
+    {
+      "source": "self_actualisation",
+      "target": "individualism",
+      "label": "peak expression of"
+    },
+    {
+      "source": "harry_caudill",
+      "target": "night_cumberlands",
+      "label": "wrote"
+    },
+    {
+      "source": "chai_ling",
+      "target": "deng_xiaoping",
+      "label": "defied"
+    },
+    {
+      "source": "john_birch_society",
+      "target": "paranoid_style",
+      "label": "embodied"
+    },
+    {
+      "source": "john_birch_society",
+      "target": "hofstadter",
+      "label": "prompted analysis by"
+    },
+    {
+      "source": "night_wolves",
+      "target": "putin",
+      "label": "bodyguards of"
+    },
+    {
+      "source": "night_wolves",
+      "target": "op_mindfuck",
+      "label": "Illuminati in Russia"
+    },
+    {
+      "source": "night_wolves",
+      "target": "exceptionalism",
+      "label": "Russian version"
+    },
+    {
+      "source": "wen_jiabao",
+      "target": "xi_jinping",
+      "label": "disagreed with"
+    },
+    {
+      "source": "wen_jiabao",
+      "target": "bo_xilai",
+      "label": "implicated by"
+    },
+    {
+      "source": "tang_na",
+      "target": "jiang_qing",
+      "label": "first husband of"
+    },
+    {
+      "source": "second_empire",
+      "target": "2008_crash",
+      "label": "hidden in aftermath"
+    },
+    {
+      "source": "second_empire",
+      "target": "exceptionalism",
+      "label": "imperial legacy"
+    },
+    {
+      "source": "jiang_qing",
+      "target": "individualism",
+      "label": "'I am a unit of one'"
+    },
+    {
+      "source": "navalny",
+      "target": "boris_yeltsin",
+      "label": "inherited fight against"
+    },
+    {
+      "source": "watergate",
+      "target": "nixon",
+      "label": "destroyed"
+    },
+    {
+      "source": "watergate",
+      "target": "op_mindfuck",
+      "label": "real conspiracies validated fake"
+    },
+    {
+      "source": "watergate",
+      "target": "mkultra",
+      "label": "exposed alongside"
+    },
+    {
+      "source": "tiananmen_place",
+      "target": "tiananmen",
+      "label": "location of"
+    },
+    {
+      "source": "tiananmen_place",
+      "target": "democracy_wall",
+      "label": "near"
+    },
+    {
+      "source": "greg_hill",
+      "target": "kerry_thornley",
+      "label": "friend of"
+    },
+    {
+      "source": "greg_hill",
+      "target": "individualism",
+      "label": "'inability to know anything'"
+    },
+    {
+      "source": "daniel_kahneman",
+      "target": "individualism",
+      "label": "attacked the confident self"
+    },
+    {
+      "source": "daniel_kahneman",
+      "target": "bf_skinner",
+      "label": "parallel behaviourist"
+    },
+    {
+      "source": "andreas_baader",
+      "target": "entebbe",
+      "label": "legacy led to"
+    },
+    {
+      "source": "gazzaniga",
+      "target": "daniel_kahneman",
+      "label": "parallel: multiple selves"
+    },
+    {
+      "source": "plisetskaya",
+      "target": "individualism",
+      "label": "'I don't want a cage'"
+    },
+    {
+      "source": "mobutu",
+      "target": "congo",
+      "label": "dictator of"
+    },
+    {
+      "source": "herbert_bayer",
+      "target": "individualism",
+      "label": "propaganda for the self"
+    },
+    {
+      "source": "wang_huning",
+      "target": "xi_jinping",
+      "label": "chief advisor to"
+    },
+    {
+      "source": "rodney_king",
+      "target": "bill_clinton",
+      "label": "during era of"
+    },
+    {
+      "source": "morgenthau",
+      "target": "miles_copeland",
+      "label": "named what Copeland admitted"
+    },
+    {
+      "source": "king_faisal",
+      "target": "saudi_arabia",
+      "label": "ruler of"
+    },
+    {
+      "source": "yuri_gagarin",
+      "target": "vladimir_komarov",
+      "label": "tried to save"
+    },
+    {
+      "source": "wei_jingsheng",
+      "target": "deng_xiaoping",
+      "label": "called 'a new fascist dictator'"
+    },
+    {
+      "source": "colonel_mengistu",
+      "target": "bernard_kouchner",
+      "label": "exposed aid paradox"
+    },
+    {
+      "source": "bob_geldof",
+      "target": "individualism",
+      "label": "idealism became complicit"
+    },
+    {
+      "source": "edward_lorenz",
+      "target": "von_neumann",
+      "label": "built on climate models of"
+    },
+    {
+      "source": "yegor_letov",
+      "target": "boris_yeltsin",
+      "label": "opposed"
+    },
+    {
+      "source": "fareed_zakaria",
+      "target": "peter_mair",
+      "label": "parallel critique of democracy"
+    },
+    {
+      "source": "giandomenico_majone",
+      "target": "tony_blair",
+      "label": "spread ideas to UK via"
+    },
+    {
+      "source": "joan_baez",
+      "target": "individualism",
+      "label": "attacked for supporting refugees"
+    },
+    {
+      "source": "richard_holbrooke",
+      "target": "bill_clinton",
+      "label": "representative of"
+    },
+    {
+      "source": "kursk",
+      "target": "navalny",
+      "label": "anger that later fuelled"
+    },
+    {
+      "source": "awakening",
+      "target": "iraq_invasion",
+      "label": "desperate consequence of"
+    },
+    {
+      "source": "dotcom",
+      "target": "2008_crash",
+      "label": "prefigured"
+    },
+    {
+      "source": "birmingham_six",
+      "target": "tony_blair",
+      "label": "undermined trust before"
+    },
+    {
+      "source": "learned_helplessness",
+      "target": "911",
+      "label": "CIA used after"
+    },
+    {
+      "source": "allan_memorial",
+      "target": "mkultra",
+      "label": "site of"
+    },
+    {
+      "source": "david_graeber",
+      "target": "2008_crash",
+      "label": "Occupy response to"
+    },
+    {
+      "source": "brighton_beach",
+      "target": "shock_therapy",
+      "label": "Russian criminals via"
+    },
+    {
+      "source": "saudi_arabia",
+      "target": "oil_crisis",
+      "label": "origin of"
+    },
+    {
+      "source": "sarajevo",
+      "target": "kosovo",
+      "label": "Balkans chain"
+    },
+    {
+      "source": "peshawar",
+      "target": "911",
+      "label": "jihadists trained near"
+    },
+    {
+      "source": "congo",
+      "target": "exceptionalism",
+      "label": "American empire continuing European"
+    },
+    {
+      "source": "kenya",
+      "target": "exceptionalism",
+      "label": "imperial violence"
+    },
+    {
+      "source": "dr_no",
+      "target": "baghdad",
+      "label": "same director → Saddam's film"
+    },
+    {
+      "source": "walden_two",
+      "target": "social_credit",
+      "label": "blueprint for"
+    },
+    {
+      "source": "its_me_eddie",
+      "target": "shock_therapy",
+      "label": "poisoned Russians against democracy"
+    },
+    {
+      "source": "killuminati",
+      "target": "op_mindfuck",
+      "label": "attacked Illuminati theories"
+    },
+    {
+      "source": "immortal_hour",
+      "target": "baghdad",
+      "label": "same romantic dream projected onto"
+    },
+    {
+      "source": "fu_manchu",
+      "target": "century_humiliation",
+      "label": "projection of British guilt"
+    },
+    {
+      "source": "idle_warriors",
+      "target": "jim_garrison",
+      "label": "led to accusation by"
+    },
+    {
+      "source": "voynich_ms",
+      "target": "individualism",
+      "label": "mystery without meaning"
+    },
+    {
+      "source": "my_bones_flute",
+      "target": "englishism",
+      "label": "colonial ghosts"
+    },
+    {
+      "source": "night_cumberlands",
+      "target": "appalachia",
+      "label": "documented"
+    },
+    {
+      "source": "lee_harvey_oswald",
+      "target": "kerry_thornley",
+      "label": "befriended in Marines"
+    },
+    {
+      "source": "lee_harvey_oswald",
+      "target": "john_f_kennedy",
+      "label": "assassinated"
+    },
+    {
+      "source": "lee_harvey_oswald",
+      "target": "ayn_rand",
+      "label": "Thornley inspired by"
+    },
+    {
+      "source": "lee_harvey_oswald",
+      "target": "jfk_assassination",
+      "label": "triggered"
+    },
+    {
+      "source": "lee_harvey_oswald",
+      "target": "idle_warriors",
+      "label": "fictionalised in"
+    },
+    {
+      "source": "john_f_kennedy",
+      "target": "jfk_assassination",
+      "label": "victim of"
+    },
+    {
+      "source": "jfk_assassination",
+      "target": "jim_garrison",
+      "label": "investigated by"
+    },
+    {
+      "source": "jfk_assassination",
+      "target": "paranoid_style",
+      "label": "fuelled"
+    },
+    {
+      "source": "jfk_assassination",
+      "target": "op_mindfuck",
+      "label": "breeding ground for"
+    },
+    {
+      "source": "ayn_rand",
+      "target": "individualism",
+      "label": "championed radical"
+    },
+    {
+      "source": "ayn_rand",
+      "target": "kerry_thornley",
+      "label": "influenced"
+    },
+    {
+      "source": "donald_trump",
+      "target": "qanon",
+      "label": "supporters created"
+    },
+    {
+      "source": "donald_trump",
+      "target": "brexit",
+      "label": "parallel populist wave"
+    },
+    {
+      "source": "donald_trump",
+      "target": "putin",
+      "label": "conspiracy theories linked"
+    },
+    {
+      "source": "donald_trump",
+      "target": "illuminati",
+      "label": "conspiracy theories echoed"
+    },
+    {
+      "source": "black_panther_party",
+      "target": "bobby_seale",
+      "label": "co-founded by"
+    },
+    {
+      "source": "black_panther_party",
+      "target": "afeni_shakur",
+      "label": "joined by"
+    },
+    {
+      "source": "black_panther_party",
+      "target": "panther_21",
+      "label": "prosecuted in"
+    },
+    {
+      "source": "black_panther_party",
+      "target": "cointelpro",
+      "label": "destroyed by"
+    },
+    {
+      "source": "black_panther_party",
+      "target": "malcolm_x",
+      "label": "inspired by"
+    },
+    {
+      "source": "black_panther_party",
+      "target": "tupac",
+      "label": "shaped childhood of"
+    },
+    {
+      "source": "malcolm_x",
+      "target": "michael_x",
+      "label": "name taken by"
+    },
+    {
+      "source": "malcolm_x",
+      "target": "stokely_carmichael",
+      "label": "influenced"
+    },
+    {
+      "source": "michael_x",
+      "target": "trinidad_place",
+      "label": "returned to"
+    },
+    {
+      "source": "michael_x",
+      "target": "gale_benson",
+      "label": "ordered murder of"
+    },
+    {
+      "source": "michael_x",
+      "target": "steve_yeates",
+      "label": "ordered killing via"
+    },
+    {
+      "source": "michael_x",
+      "target": "hakim_jamal",
+      "label": "associated with"
+    },
+    {
+      "source": "gale_benson",
+      "target": "hakim_jamal",
+      "label": "followed to Trinidad"
+    },
+    {
+      "source": "gale_benson",
+      "target": "trinidad_place",
+      "label": "murdered in"
+    },
+    {
+      "source": "steve_yeates",
+      "target": "gale_benson",
+      "label": "killed"
+    },
+    {
+      "source": "jean_seberg",
+      "target": "black_panther_party",
+      "label": "supported"
+    },
+    {
+      "source": "jean_seberg",
+      "target": "cointelpro",
+      "label": "destroyed by"
+    },
+    {
+      "source": "jean_seberg",
+      "target": "hakim_jamal",
+      "label": "had affair with"
+    },
+    {
+      "source": "cointelpro",
+      "target": "black_panther_party",
+      "label": "infiltrated"
+    },
+    {
+      "source": "bobby_seale",
+      "target": "afeni_shakur",
+      "label": "inspired"
+    },
+    {
+      "source": "jiang_qing",
+      "target": "gang_of_four",
+      "label": "led"
+    },
+    {
+      "source": "gang_of_four",
+      "target": "cultural_revolution",
+      "label": "tried to continue"
+    },
+    {
+      "source": "gang_of_four",
+      "target": "deng_xiaoping",
+      "label": "defeated by allies of"
+    },
+    {
+      "source": "gang_of_four",
+      "target": "mao_zedong",
+      "label": "seized power after death of"
+    },
+    {
+      "source": "alexander_solzhenitsyn",
+      "target": "gulag",
+      "label": "wrote"
+    },
+    {
+      "source": "alexander_solzhenitsyn",
+      "target": "wei_jingsheng",
+      "label": "parallel dissident to"
+    },
+    {
+      "source": "red_army_faction",
+      "target": "andreas_baader",
+      "label": "co-founded by"
+    },
+    {
+      "source": "red_army_faction",
+      "target": "hanns_martin_schleyer",
+      "label": "kidnapped and killed"
+    },
+    {
+      "source": "red_army_faction",
+      "target": "entebbe",
+      "label": "connected to via PFLP"
+    },
+    {
+      "source": "hanns_martin_schleyer",
+      "target": "horst_herold",
+      "label": "murder investigated by"
+    },
+    {
+      "source": "limonov",
+      "target": "yelena_shchapova",
+      "label": "married"
+    },
+    {
+      "source": "yelena_shchapova",
+      "target": "brighton_beach",
+      "label": "emigrated to"
+    },
+    {
+      "source": "osama_bin_laden",
+      "target": "abu_zubaydah",
+      "label": "asked alliance with"
+    },
+    {
+      "source": "osama_bin_laden",
+      "target": "911",
+      "label": "orchestrated"
+    },
+    {
+      "source": "osama_bin_laden",
+      "target": "peshawar",
+      "label": "operated near"
+    },
+    {
+      "source": "osama_bin_laden",
+      "target": "afghanistan_place",
+      "label": "based in"
+    },
+    {
+      "source": "chris_de_burgh",
+      "target": "abu_zubaydah",
+      "label": "music loved by"
+    },
+    {
+      "source": "arthur_sackler",
+      "target": "valium_drug",
+      "label": "marketed"
+    },
+    {
+      "source": "arthur_sackler",
+      "target": "oxycontin",
+      "label": "company created"
+    },
+    {
+      "source": "valium_drug",
+      "target": "betty_ford",
+      "label": "addicted"
+    },
+    {
+      "source": "valium_drug",
+      "target": "oxycontin",
+      "label": "template for"
+    },
+    {
+      "source": "oxycontin",
+      "target": "appalachia",
+      "label": "devastated"
+    },
+    {
+      "source": "oxycontin",
+      "target": "opium_wars",
+      "label": "completed opium circle from"
+    },
+    {
+      "source": "oxycontin",
+      "target": "individualism",
+      "label": "medicated the emptiness of"
+    },
+    {
+      "source": "vietnam_war",
+      "target": "nixon",
+      "label": "escalated by"
+    },
+    {
+      "source": "vietnam_war",
+      "target": "cold_war",
+      "label": "proxy war of"
+    },
+    {
+      "source": "vietnam_war",
+      "target": "individualism",
+      "label": "disillusionment fuelled"
+    },
+    {
+      "source": "vietnam_war",
+      "target": "miles_copeland",
+      "label": "CIA covert ops included"
+    },
+    {
+      "source": "cold_war",
+      "target": "mkultra",
+      "label": "spawned"
+    },
+    {
+      "source": "cold_war",
+      "target": "individualism",
+      "label": "promoted as ideology"
+    },
+    {
+      "source": "cold_war",
+      "target": "boolean_logic",
+      "label": "weaponised"
+    },
+    {
+      "source": "cold_war",
+      "target": "yuri_gagarin",
+      "label": "space race of"
+    },
+    {
+      "source": "war_on_terror",
+      "target": "abu_zubaydah",
+      "label": "first prisoner of"
+    },
+    {
+      "source": "war_on_terror",
+      "target": "abu_ghraib",
+      "label": "torture spread to"
+    },
+    {
+      "source": "war_on_terror",
+      "target": "mkultra",
+      "label": "techniques derived from"
+    },
+    {
+      "source": "war_on_terror",
+      "target": "iraq_invasion",
+      "label": "led to"
+    },
+    {
+      "source": "war_on_terror",
+      "target": "guantanamo",
+      "label": "detention at"
+    },
+    {
+      "source": "abu_zubaydah",
+      "target": "guantanamo",
+      "label": "held at"
+    },
+    {
+      "source": "abu_zubaydah",
+      "target": "abu_ghraib",
+      "label": "techniques spread from"
+    },
+    {
+      "source": "george_w_bush",
+      "target": "iraq_invasion",
+      "label": "ordered"
+    },
+    {
+      "source": "george_w_bush",
+      "target": "war_on_terror",
+      "label": "declared"
+    },
+    {
+      "source": "george_w_bush",
+      "target": "tony_blair",
+      "label": "allied with"
+    },
+    {
+      "source": "margaret_thatcher",
+      "target": "cold_war",
+      "label": "fought"
+    },
+    {
+      "source": "margaret_thatcher",
+      "target": "percy_cradock",
+      "label": "advised by"
+    },
+    {
+      "source": "margaret_thatcher",
+      "target": "neoliberalism",
+      "label": "implemented"
+    },
+    {
+      "source": "barack_obama",
+      "target": "donald_trump",
+      "label": "succeeded by"
+    },
+    {
+      "source": "barack_obama",
+      "target": "illuminati",
+      "label": "Russian conspiracy linked to"
+    },
+    {
+      "source": "ku_klux_klan",
+      "target": "birth_of_nation",
+      "label": "revived by imagery from"
+    },
+    {
+      "source": "ku_klux_klan",
+      "target": "clansman",
+      "label": "originated from"
+    },
+    {
+      "source": "ku_klux_klan",
+      "target": "tulsa_massacre",
+      "label": "connected to violence of"
+    },
+    {
+      "source": "illuminati",
+      "target": "op_mindfuck",
+      "label": "weaponised by"
+    },
+    {
+      "source": "illuminati",
+      "target": "greg_hill",
+      "label": "fake letters by"
+    },
+    {
+      "source": "illuminati",
+      "target": "qanon",
+      "label": "ancestor of"
+    },
+    {
+      "source": "illuminati",
+      "target": "killuminati",
+      "label": "Tupac fought against"
+    },
+    {
+      "source": "qanon",
+      "target": "donald_trump",
+      "label": "created to explain"
+    },
+    {
+      "source": "qanon",
+      "target": "op_mindfuck",
+      "label": "descended from"
+    },
+    {
+      "source": "cambridge_analytica",
+      "target": "facebook_experiments",
+      "label": "built on claims of"
+    },
+    {
+      "source": "facebook_experiments",
+      "target": "nudge_theory",
+      "label": "challenged effectiveness of"
+    },
+    {
+      "source": "cambridge_analytica",
+      "target": "brexit",
+      "label": "involved in"
+    },
+    {
+      "source": "facebook_experiments",
+      "target": "social_credit",
+      "label": "Western version of"
+    },
+    {
+      "source": "neoliberalism",
+      "target": "non_majoritarian",
+      "label": "intellectually justified by"
+    },
+    {
+      "source": "neoliberalism",
+      "target": "shock_therapy",
+      "label": "implemented via"
+    },
+    {
+      "source": "neoliberalism",
+      "target": "asian_crisis",
+      "label": "caused"
+    },
+    {
+      "source": "neoliberalism",
+      "target": "dotcom",
+      "label": "contributed to"
+    },
+    {
+      "source": "vory_v_zakone",
+      "target": "putin",
+      "label": "merged with state under"
+    },
+    {
+      "source": "vory_v_zakone",
+      "target": "boris_yeltsin",
+      "label": "thrived under chaos of"
+    },
+    {
+      "source": "vory_v_zakone",
+      "target": "ultra_corruption",
+      "label": "enabled"
+    },
+    {
+      "source": "lsd_drug",
+      "target": "mkultra",
+      "label": "used in"
+    },
+    {
+      "source": "lsd_drug",
+      "target": "ewen_cameron",
+      "label": "administered by"
+    },
+    {
+      "source": "lsd_drug",
+      "target": "allan_memorial",
+      "label": "experiments at"
+    },
+    {
+      "source": "afghanistan_place",
+      "target": "osama_bin_laden",
+      "label": "base for"
+    },
+    {
+      "source": "afghanistan_place",
+      "target": "bernard_kouchner",
+      "label": "interventionism led fighters to"
+    },
+    {
+      "source": "afghanistan_place",
+      "target": "peshawar",
+      "label": "gateway via"
+    },
+    {
+      "source": "keswick_family",
+      "target": "opium_wars",
+      "label": "profited from"
+    },
+    {
+      "source": "keswick_family",
+      "target": "hong_kong",
+      "label": "operated from"
+    },
+    {
+      "source": "abu_ghraib",
+      "target": "iraq_invasion",
+      "label": "exposed after"
+    },
+    {
+      "source": "guantanamo",
+      "target": "war_on_terror",
+      "label": "symbol of"
+    }
+  ]
+}
